@@ -2,13 +2,12 @@
 .curso-main-container.pb-3
   BannerInterno(icono="fas fa-sitemap" titulo="Síntesis")
   .container.tarjeta.tarjeta--blanca.p-4.p-md-5
-    p Lorem ipsum dolor sit amet, consectetur adipiscing elit. Mauris eu tincidunt erat. Fusce cursus mauris in nulla egestas vulputate. Phasellus viverra accumsan libero, sed luctus diam maximus euismod. Mauris sem risus, tincidunt vel libero in, lobortis commodo ante. Sed pulvinar luctus orci in rhoncus. Nulla ut dapibus risus, ac tempor est. Donec nulla augue, vehicula quis malesuada vitae, fermentum non nisi. Donec tincidunt nibh a magna bibendum rutrum. 
-    
+    p.mb-5 El componente formativo Análisis y evaluación de negocio aborda el estudio de los mercados, incluyendo su concepto, clasificación y beneficios; continúa con la segmentación del mercado, considerando su definición, tipologías, características y metodología; analiza el entorno, abarcando su concepto y clasificación; y profundiza en la dinámica del mercado, incluyendo el comportamiento de la oferta y la demanda. Asimismo, desarrolla el análisis estratégico mediante el uso de herramientas como la matriz DOFA, orientadas a la identificación de factores internos y externos; y finaliza con la información para la toma de decisiones, integrando fuentes de información, técnicas de recolección de datos, aplicativos de gestión y procesamiento de la información, con el propósito de analizar y evaluar ideas de negocio en contextos reales.
 
     .row.justify-content-center
-      .col-lg-10.mb-5.bgs.p-4.brad
+      .col-12
         figure
-          img(src="@/assets/curso/sintesis.svg", alt="Lorem ipsum dolor sit amet, consectetur adipiscing elit. Mauris eu tincidunt erat. Fusce cursus mauris in nulla egestas vulputate. Phasellus viverra accumsan libero, sed luctus diam maximus euismod. Mauris sem risus, tincidunt vel libero in, lobortis commodo ante. Sed pulvinar luctus orci in rhoncus. Nulla ut dapibus risus, ac tempor est. Donec nulla augue, vehicula quis malesuada vitae, fermentum non nisi. Donec tincidunt nibh a magna bibendum rutrum. ")
+          img.mb-5(src="@/assets/curso/sintesis.svg", alt="")
       .col-auto
         a.anexo.mb-5(:href="obtenerLink('/downloads/Sintesis.pdf')" target="_blank")
           .anexo__icono
