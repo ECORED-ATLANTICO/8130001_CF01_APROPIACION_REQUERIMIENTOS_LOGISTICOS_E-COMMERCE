@@ -5,20 +5,20 @@
     animation: float1 3.5s ease-in-out infinite alternate
     position: absolute
     width: 98px
-    top: 0%
-    right: 50%
+    top: 10%
+    left: 0%
   &-2
     animation: float1 2.8s ease-in-out infinite alternate
     position: absolute
     width: 98px
-    top: 20%
-    right: 10%
+    bottom: 10%
+    left: 10%
   &-3
     animation: float1 2.8s ease-in-out infinite alternate
     position: absolute
     width: 98px
-    top: 21%
-    left: -10%
+    top: 10%
+    right: 10%
 
 @keyframes float1
   0%
@@ -44,33 +44,38 @@ figcaption, table caption
   padding-bottom: 0 !important
   padding-right: 0 !important
   @media screen and (max-width: $bp-max-xl)
-    width: 475px !important
+    width: 400px !important
 
 .banner-interno__fondo
   background-image: url("../assets/curso/banner_interno.png") !important
   background-color: $color-primario-p5 !important
 .banner-principal .tarjeta
-  background-image: url("../assets/curso/portada/fondo-banner-principal-xs.png") !important
-  @media screen and (min-width: $bp-min-sm)
+  @media screen and (max-width: $bp-max-md)
     background-image: url("../assets/curso/portada/fondo-banner-principal-sm.png") !important
-  @media screen and (min-width: $bp-min-lg)
-    background-image: url("../assets/curso/portada/fondo-banner-principal.png") !important
+  @media screen and (max-width: $bp-max-xs)
+    background-image: url("../assets/curso/portada/fondo-banner-principal-xs.png") !important
 
 
 .text-end 
     text-align: left !important
 
 // BACKGROUNDS color
+.bg-azul
+  background-color: #EEF2FD
 .bg-primario-p10
   background-color: $color-primario-p10
 .bg-secundario-s5
   background-color: $color-secundario-s5
+.bg-secundario-s20
+  background-color: $color-secundario-s20
 .bg-terciario-t5
   background-color: $color-terciario-t5
 .bg-terciario-t10
   background-color: $color-terciario-t10
 .bg-terciario-t20
   background-color: $color-terciario-t20
+.bg-terciario-t70
+  background-color: $color-terciario-t70
 .bg-contenido-a5
   background-color: $color-acento-contenido-a5
 .bg-contenido-a10
@@ -78,29 +83,26 @@ figcaption, table caption
 .bg-gris-sistema
   background-color: $color-sistema-h
 
-
+.bg-audio
+  background-color: $color-acento-contenido
+  background-image: url("../assets/curso/common/bg-audio.png") !important
+  background-repeat: no-repeat
+  background-size: cover
+  background-position: center
 // WIDTH
-.w-145
-  max-width: 145px
-  width: 100%
-  margin: 0 auto
-  @media (min-width: 992px)
-    margin-left: 0
-.w-110
-  max-width: 110px
-  width: 100%
-  margin: 0 auto
-  @media (min-width: 992px)
-    margin-left: 0
-.w-72
+.imgw-72
   width: 72px
+  margin: 0 auto
+.imgw-185
+  width: 185px
+  margin: 0 auto
 //GENERALES
 
 .banner-text
-  background: $color-secundario-s20
+  background: $color-primario-p10
   border-radius: 10px
   padding: 20px 30px
-  margin-top: -60px
+  margin-top: -80px
   &--green
     background-color: $color-terciario-t5
   &--yellow
@@ -191,7 +193,7 @@ figcaption, table caption
     .crd_hover_txt--body   
       transition: all 0.5s cubic-bezier(0.42, 0, 0.58, 1) 
       transform: translateY(0)
-      background-color: $color-terciario-t10
+      background-color: $color-primario-p5
       opacity: 0.95
       h4
         color: $color-sistema-texto
@@ -204,7 +206,7 @@ figcaption, table caption
     bottom: 0    
     transition: all 0.5s cubic-bezier(0.42, 0, 0.58, 1)
     transform: translateY(calc( 100% - 3.85rem ))
-    background-color: $color-terciario-t10
+    background-color: $color-primario-p5
     h4 
       text-align: center
     &--custom
@@ -257,12 +259,13 @@ ul.checklist
 
   &__slyde
     h4
-      background-color: $color-secundario
       width: fit-content
       padding: 4px 20px
       margin-left: auto
       margin-right: auto
-  
+
+    > .tarjeta
+      height: 90%
   &__main
     width: 70%
 
@@ -277,7 +280,7 @@ ul.checklist
     border-radius: 50%
     padding: 0 !important
     margin: 0 auto
-    color: $white
+    // color: $white
     .fa-chevron-left
       font-size: 20px
     .fa-chevron-right
@@ -295,3 +298,12 @@ ul.checklist
   &.linea-tiempo-d__item--selected
     .linea-tiempo-d__item__content
       background-color: $color-acento-contenido-a10
+
+.tabs-b
+  &__tab
+    background-color: $color-secundario-s5
+  &__content-item
+    background-color: $color-sistema-h
+
+.tarjeta-audio
+  background-color: $white

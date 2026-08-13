@@ -22,7 +22,7 @@ export default {
       tema: 'Diagnóstico logístico en operaciones de <em>e-commerce</em>',
       titulo: 'Cuestionario',
       introduccion:
-        '<b> Objetivo:</b> Verificar la apropiación de conceptos y procesos relacionados con planeación logística, distribución, gestión de carga y control operativo en operaciones de <em>e-commerce</em>.',
+        '<b> Objetivo:</b> verificar la apropiación de conceptos y procesos relacionados con planeación logística, distribución, gestión de carga y control operativo en operaciones de <em>e-commerce</em>.',
       barajarPreguntas: true,
       titulo_aprobado: '¡BUEN TRABAJO!',
       titulo_reprobado: 'VUELVA A INTENTARLO',
