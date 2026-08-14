@@ -62,6 +62,10 @@ figcaption, table caption
 // BACKGROUNDS color
 .bg-azul
   background-color: #EEF2FD
+.bg-primario
+  background-color: $color-primario
+.bg-primario-p5
+  background-color: $color-primario-p5
 .bg-primario-p10
   background-color: $color-primario-p10
 .bg-secundario-s5
@@ -90,6 +94,9 @@ figcaption, table caption
   background-size: cover
   background-position: center
 // WIDTH
+.imgw-46
+  width: 46px
+  margin: 0 auto
 .imgw-72
   width: 72px
   margin: 0 auto
@@ -103,10 +110,8 @@ figcaption, table caption
   border-radius: 10px
   padding: 20px 30px
   margin-top: -80px
-  &--green
-    background-color: $color-terciario-t5
-  &--yellow
-    background-color: $color-acento-contenido-a5
+  &--secundario
+    background-color: $color-secundario-s5
 
 .slyder-a
   .slyder-a__btn--atrs, .slyder-a__btn--sigt
@@ -290,14 +295,22 @@ ul.checklist
   width: 4.5%
 
 .linea-tiempo-d__item
-  // &__number
-  //   background-color: $color-acento-botones
+  &__number
+    background-color: $color-primario-p20
   &__content
     background-color: $color-terciario-t5
+    padding: 5px
+  &__content__title
+    span
+      margin-bottom: 10px !important
+      margin-top: 10px !important
   
-  &.linea-tiempo-d__item--selected
+  &--selected
     .linea-tiempo-d__item__content
-      background-color: $color-acento-contenido-a10
+      background-color: $color-secundario-s5
+    .linea-tiempo-d__item__number
+      background-color: $color-secundario-s5 !important
+      color: $color-sistema-texto !important
 
 .tabs-b
   &__tab
