@@ -2,7 +2,7 @@
 .curso-main-container.pb-3
   BannerInterno(icono="fas fa-sitemap" titulo="Síntesis")
   .container.tarjeta.tarjeta--blanca.p-4.p-md-5
-    p.mb-5 El componente formativo Análisis y evaluación de negocio aborda el estudio de los mercados, incluyendo su concepto, clasificación y beneficios; continúa con la segmentación del mercado, considerando su definición, tipologías, características y metodología; analiza el entorno, abarcando su concepto y clasificación; y profundiza en la dinámica del mercado, incluyendo el comportamiento de la oferta y la demanda. Asimismo, desarrolla el análisis estratégico mediante el uso de herramientas como la matriz DOFA, orientadas a la identificación de factores internos y externos; y finaliza con la información para la toma de decisiones, integrando fuentes de información, técnicas de recolección de datos, aplicativos de gestión y procesamiento de la información, con el propósito de analizar y evaluar ideas de negocio en contextos reales.
+    p.mb-5 El componente formativo Planeación logística en e-commerce aborda los fundamentos del comercio electrónico y los modelos de negociación, integrando componentes logísticos y normativa aplicable; continúa con la logística de distribución y almacenamiento, considerando operadores logísticos, primera y última milla y tiempos de entrega; desarrolla la gestión de carga y preparación de pedidos mediante procesos de marcado, empacado, cubicaje y picking; asimismo, analiza la planeación y control logístico mediante indicadores KPI y trazabilidad; y finaliza con logística inversa, bioseguridad, soporte tecnológico y cumplimiento normativo en operaciones logísticas digitales.
 
     .row.justify-content-center
       .col-12

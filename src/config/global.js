@@ -365,8 +365,53 @@ export default {
   ],
   referencias: [
     {
-      referencia: 'REF',
-      link: 'LINK',
+      referencia:
+        'hopra, S., & Meindl, P. (2008). Administración de la cadena de suministro: estrategia, planeación y operación (3.ª ed.). Pearson Educación.',
+      link: '',
+    },
+    {
+      referencia:
+        'García Olivares, A. A. (2004). Recomendaciones táctico-operativas para implementar un programa de logística inversa. eumed.net.',
+      link: '',
+    },
+    {
+      referencia:
+        'Meléndez, M. (2018). El <em>marketing</em> digital transforma la gestión de pymes en Colombia. Recuperado de: https://www.redalyc.org/jatsRepo/4096/409658132001/html/index.html',
+      link: 'https://www.redalyc.org/jatsRepo/4096/409658132001/html/index.html',
+    },
+    {
+      referencia:
+        'Ministerio de Tecnologías de la Información y las Comunicaciones. (2020). Resolución 202 de 2010.',
+      link: '',
+    },
+    {
+      referencia:
+        'Monroy, N., & Ahumada, C. (2006). Logística reversa: retos para la ingeniería industrial. Revista de Ingeniería, 23.',
+      link: '',
+    },
+    {
+      referencia:
+        'Banco de la República. (2021). Pasarelas de pago. Recuperado de: https://www.banrep.gov.co/es/node/40991',
+      link: 'https://www.banrep.gov.co/es/node/40991',
+    },
+    {
+      referencia:
+        'Betancur, C. (2021). Comparación de pasarelas de pago en Colombia. BTODigital. Recuperado de: https://btodigital.com/comparacion-de-pasarelas-de-pago-encolombia/',
+      link: 'https://btodigital.com/comparacion-de-pasarelas-de-pago-encolombia/',
+    },
+    {
+      referencia:
+        'Herradón, A. (2009). <em>Marketing</em> electrónico para pymes. Alfaomega.',
+      link: '',
+    },
+    {
+      referencia:
+        'Observatorio <em>e-commerce</em>. (2018). Manual de buenas prácticas de las pasarelas de pago en Colombia.',
+      link: '',
+    },
+    {
+      referencia: 'Ortega, L. (2015). E-commerce y pago seguro.',
+      link: '',
     },
   ],
   creditos: [
@@ -410,12 +455,12 @@ export default {
       titulo: 'DISEÑO Y DESARROLLO DE RECURSOS EDUCATIVOS DIGITALES',
       autores: [
         {
-          nombre: 'Nombre responsable',
+          nombre: 'Andres Felipe',
           cargo: 'Diseñador de contenidos',
           centro: 'Centro de Comercio y Servicios - Regional Atlántico',
         },
         {
-          nombre: 'Nombre responsable',
+          nombre: 'Fabio Fonseca Arguelles',
           cargo: 'Desarrollador <i>full stack</i>',
           centro: 'Centro de Comercio y Servicios - Regional Atlántico',
         },

@@ -61,7 +61,7 @@
 
     separador
     #t_2_2.titulo-segundo.color-acento-contenido(data-aos="flip-up")
-      h2 2.2 Logística de distribución y almacenamiento
+      h2 2.2 Primera y última milla
     
     .row.justify-content-center.align-items-center.mb-5
       .col-sm-10.col-lg-5
