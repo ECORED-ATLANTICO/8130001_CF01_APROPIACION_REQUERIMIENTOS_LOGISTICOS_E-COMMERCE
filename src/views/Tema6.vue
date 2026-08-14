@@ -64,7 +64,7 @@
     .titulo-sexto.color-acento-contenido.mb-4
       h5 Tabla 5.
       span Aspectos fundamentales de la gestión documental y el control de procesos
-    .tabla-a.color-acento-contenido.tabla-a--text-left.mb-4
+    .tabla-b.color-acento-contenido.tabla-a--text-left.mb-4
       table
         caption Nota. SENA, (2026).
         thead
@@ -74,11 +74,11 @@
             th(colspan="2") Ejemplo de aplicación
         tbody
           tr
-            td Registro documental
+            td #[strong Registro documental]
             td(colspan="2") Documenta las operaciones mediante formatos físicos o digitales que respaldan cada actividad logística.
             td(colspan="2") Registrar electrónicamente la recepción de una mercancía en el sistema de información.
           tr(style="background-color: #F6F6F6")
-            td Organización de la información
+            td #[strong Organización de la información]
             td(colspan="2") Clasifica y almacena los documentos para facilitar su consulta, actualización y conservación.
             td(colspan="2") Organizar las órdenes de despacho por fecha y número de pedido en una plataforma digital.
 
