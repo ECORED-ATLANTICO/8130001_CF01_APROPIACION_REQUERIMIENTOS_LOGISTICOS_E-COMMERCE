@@ -175,9 +175,13 @@
     #t_3_3.titulo-segundo.color-acento-contenido(data-aos="flip-up")
       h2 3.3 Procesos logísticos
 
-    p El marcado, el empacado y el rotulado constituyen actividades esenciales dentro de la operación logística, ya que favorecen la identificación, protección y manipulación adecuada de las mercancías durante su almacenamiento, transporte y distribución. La correcta aplicación de estos procesos contribuye a disminuir errores operativos, preservar la integridad de los productos, facilitar la trazabilidad y garantizar que cada envío llegue al destino en las condiciones previstas. 
-
-    p.mb-4 A continuación, se muestra un análisis comparativo sobre los tres procesos: 
+    .row.justify-content-center.align-items-center.mb-4.mb-lg-5
+      .col-sm-8.col-lg-5
+        figure
+          img.mb-4.mb-lg-0(src="@/assets/curso/tema3/26.png", alt="" data-aos="zoom-in-down")
+      .col-lg-7
+        p El marcado, el empacado y el rotulado constituyen actividades esenciales dentro de la operación logística, ya que favorecen la identificación, protección y manipulación adecuada de las mercancías durante su almacenamiento, transporte y distribución. La correcta aplicación de estos procesos contribuye a disminuir errores operativos, preservar la integridad de los productos, facilitar la trazabilidad y garantizar que cada envío llegue al destino en las condiciones previstas. 
+        p.mb-0 A continuación, se muestra un análisis comparativo sobre los tres procesos: 
 
     .titulo-sexto.color-acento-contenido.mb-4
       h5 Tabla 2.
@@ -215,7 +219,12 @@
     #t_3_4.titulo-segundo.color-acento-contenido(data-aos="flip-up")
       h2 3.4 Cubicaje, #[em picking], #[em packaging] y #[em dropshipping]  
 
-    p.mb-4 Las operaciones logísticas en el comercio electrónico requieren procesos que optimicen el uso de los recursos, agilicen la preparación de los pedidos y respondan a las expectativas del cliente. En este contexto, el cubicaje, el picking, el packaging y el dropshipping desempeñan un papel fundamental, ya que contribuyen a mejorar el almacenamiento, la gestión de inventarios, la preparación de los envíos y la coordinación entre los diferentes actores de la cadena de suministro. 
+    .row.justify-content-center.align-items-center.mb-4.mb-lg-5
+      .col-sm-2.col-lg-1.d-none.d-lg-block
+        figure
+          img.mb-4.mb-lg-0(src="@/assets/curso/tema3/27.svg", alt="" data-aos="zoom-in-down")
+      .col-lg-11
+        p.mb-0 Las operaciones logísticas en el comercio electrónico requieren procesos que optimicen el uso de los recursos, agilicen la preparación de los pedidos y respondan a las expectativas del cliente. En este contexto, el cubicaje, el picking, el packaging y el dropshipping desempeñan un papel fundamental, ya que contribuyen a mejorar el almacenamiento, la gestión de inventarios, la preparación de los envíos y la coordinación entre los diferentes actores de la cadena de suministro.
 
     .row.justify-content-center
       .col-xl-10
@@ -260,8 +269,9 @@
         figcaption Nota. SENA, (2026).
 
     .row.justify-content-center
-      .bg-terciario-t5.p-4.py-3.rounded-4.mb-4.mb-lg-5
-        p.mb-0.text-center El #[em dropshipping]: corresponde a un modelo de negocio donde el vendedor comercializa productos sin almacenarlos físicamente. En este esquema, el proveedor realiza directamente el despacho al consumidor final.
+      .col-xl-10
+        .bg-terciario-t5.p-4.py-3.rounded-4.mb-4.mb-lg-5
+          p.mb-0.text-center El #[em dropshipping]: corresponde a un modelo de negocio donde el vendedor comercializa productos sin almacenarlos físicamente. En este esquema, el proveedor realiza directamente el despacho al consumidor final.
 
     .row.justify-content-center.align-items-center.z-2.mb-4
       .col-xl-10

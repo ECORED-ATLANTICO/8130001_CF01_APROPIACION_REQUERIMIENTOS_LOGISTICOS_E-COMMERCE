@@ -20,7 +20,7 @@
     #t_2_1.titulo-segundo.color-acento-contenido(data-aos="flip-up")
       h2 2.1 Logística nacional e internacional
 
-    img(data-aos="fade-up")(src="@/assets/curso/tema2/2.png", alt="")
+    img(src="@/assets/curso/tema2/2.png", alt="", data-aos="zoom-in-down")
     .row.justify-content-center.z-2
       .col-lg-10.p-4.drop-shadow(data-aos="fade-down")
         div.banner-text.banner-text--terciario
@@ -172,7 +172,7 @@
     #t_2_3.titulo-segundo.color-acento-contenido(data-aos="flip-up")
       h2 2.3 Operadores logísticos
 
-    img(data-aos="fade-up")(src="@/assets/curso/tema2/12.png", alt="")
+    img(src="@/assets/curso/tema2/12.png", alt="", data-aos="fade-up")
     
     .row.justify-content-center.z-2
       .col-lg-10.p-4.drop-shadow(data-aos="fade-down")
