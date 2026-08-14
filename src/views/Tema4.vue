@@ -160,15 +160,181 @@
     .bg-secundario-s10.p-4.py-3.rounded-4
       p.mb-0.text-center El análisis de indicadores facilita la toma de decisiones y permite establecer estrategias de mejora continua dentro de las operaciones logísticas.
 
+    separador
+    #t_4_4.titulo-segundo.color-acento-contenido(data-aos="flip-up")
+      h2 4.4 Trazabilidad y gestión de la información
 
+    .bloque-texto-g.color-primario.p-3.p-sm-4.p-md-5.mb-5
+      .bloque-texto-g__img(
+        :style="{'background-image': `url(${require_src('@/assets/curso/tema4/8.png')})`}"
+      )
+      .bloque-texto-g__texto.p-4
+        p.mb-0 La trazabilidad corresponde a la capacidad de identificar, registrar y consultar el recorrido, la ubicación y el estado de una mercancía durante las diferentes etapas de la cadena de suministro. Su aplicación facilita el seguimiento de los productos desde su origen hasta la entrega al cliente y, cuando corresponde, durante los procesos de devolución. Los elementos mas importantes de la trazabilidad son:
 
+    .row.justify-content-center.align-items-stretch.mb-4.mb-lg-5
+      .col-lg-6.col-xl-4.mb-4
+        .bg-primario-p10.p-4.rounded-4.h-100
+          .row.justify-content-center.align-items-center
+            .col-4.col-sm-2.col-lg-3
+              img.imgw-60.mb-4.mb-lg-0(src="@/assets/curso/tema4/9.svg", alt="", data-aos="zoom-in-down")
+            .col-sm-10.col-lg-9
+              h4.mb-4 Identificación del producto
+              p La asignación de códigos, etiquetas o identificadores únicos facilita el reconocimiento de cada mercancía. 
+              p.mb-0 Ejemplo: un código QR identifica un pedido durante todo su recorrido.
+      .col-lg-6.col-xl-4.mb-4
+        .bg-primario-p10.p-4.rounded-4.h-100
+          .row.justify-content-center.align-items-center
+            .col-4.col-sm-2.col-lg-3
+              img.imgw-60.mb-4.mb-lg-0(src="@/assets/curso/tema4/10.svg", alt="", data-aos="zoom-in-down")
+            .col-sm-10.col-lg-9
+              h4.mb-4 Seguimiento del recorrido
+              p El registro de cada movimiento permite conocer la ubicación y el estado del producto en tiempo real.
+              p.mb-0 Ejemplo: consultar cuándo un pedido salió del centro de distribución.
+      .col-lg-6.col-xl-4.mb-4
+        .bg-primario-p10.p-4.rounded-4.h-100
+          .row.justify-content-center.align-items-center
+            .col-4.col-sm-2.col-lg-3
+              img.imgw-60.mb-4.mb-lg-0(src="@/assets/curso/tema4/11.svg", alt="", data-aos="zoom-in-down")
+            .col-sm-10.col-lg-9
+              h4.mb-4 Registro de eventos
+              p La documentación de cada etapa fortalece el control operativo y facilita la consulta del historial del envío. 
+              p.mb-0 Ejemplo: registrar la recepción, el despacho y la entrega de un paquete.
+      .col-lg-6.col-xl-4.mb-4.mb-xl-0
+        .bg-primario-p10.p-4.rounded-4.h-100
+          .row.justify-content-center.align-items-center
+            .col-4.col-sm-2.col-lg-3
+              img.mb-4.mb-lg-0(src="@/assets/curso/tema4/12.svg", alt="", data-aos="zoom-in-down")
+            .col-sm-10.col-lg-9
+              h4.mb-4 Control de incidencias
+              p La identificación de novedades permite responder oportunamente ante retrasos, pérdidas o daños. 
+              p.mb-0 Ejemplo: detectar un cambio de ruta por condiciones climáticas.
+      .col-lg-6.col-xl-4.mb-4.mb-xl-0
+        .bg-primario-p10.p-4.rounded-4.h-100
+          .row.justify-content-center.align-items-center
+            .col-4.col-sm-2.col-lg-3
+              img.imgw-60.mb-4.mb-lg-0(src="@/assets/curso/tema4/13.svg", alt="", data-aos="zoom-in-down")
+            .col-sm-10.col-lg-9
+              h4.mb-4 Integración tecnológica
+              p El uso de sistemas digitales mejora la captura y consulta de la información logística. 
+              p.mb-0 Ejemplo: emplear un WMS integrado con el sistema de transporte.
+      .col-lg-6.col-xl-4
+        .bg-primario-p10.p-4.rounded-4.h-100
+          .row.justify-content-center.align-items-center
+            .col-4.col-sm-2.col-lg-3
+              img.imgw-60.mb-4.mb-lg-0(src="@/assets/curso/tema4/14.svg", alt="", data-aos="zoom-in-down")
+            .col-sm-10.col-lg-9
+              h4.mb-4 Transparencia operativa
+              p La disponibilidad de información fortalece la confianza entre la empresa, los operadores y el cliente. 
+              p.mb-0 Ejemplo: permitir al comprador consultar el estado de su pedido desde una aplicación.
 
+    .bg-secundario-s10.p-4.py-3.rounded-4.mb-4
+      p.mb-0 La gestión de la información comprende la recopilación, organización, almacenamiento, actualización y consulta de los datos generados durante las operaciones logísticas, garantizando información confiable, disponible y oportuna para el seguimiento de los procesos y la toma de decisiones. Los aspectos fundamentales en la gestión de la información son:
 
+    .row.justify-content-center.align-items-center.mb-4
+      .col-sm-8.col-lg-4.d-none.d-xl-block
+        figure
+          img.mb-4.mb-lg-0(src="@/assets/curso/tema4/15.png", alt="" data-aos="zoom-in-down")
+      .col-xl-8
+        SlyderF.circl-arrow(columnas="col-sm-12 col-lg-6")
+          .tarjeta.tarjeta--blanca.p-4.py-5.shadow.m-3.mx-2
+            .row.justify-content-center.mb-3
+              .col-4.col-xl-5
+                img.mb-4(src='@/assets/curso/tema4/16.svg' alt='')
+            h4.text-center.mb-4 Captura de datos
+            p.text-center La recopilación oportuna de información garantiza registros completos durante cada operación logística. 
+            p.mb-0 Ejemplo: registrar un pedido al momento de su confirmación.
+          .tarjeta.tarjeta--blanca.p-4.py-5.shadow.m-3.mx-2
+            .row.justify-content-center.mb-3
+              .col-4.col-xl-5
+                img.mb-4(src='@/assets/curso/tema4/17.svg' alt='')
+            h4.text-center.mb-4 Calidad de información
+            p.text-center La precisión y actualización de los datos reducen errores y fortalecen la confiabilidad de los procesos. 
+            p.mb-0 Ejemplo: verificar la dirección del cliente antes del despacho.
+          .tarjeta.tarjeta--blanca.p-4.py-5.shadow.m-3.mx-2
+            .row.justify-content-center.mb-3
+              .col-4.col-xl-5
+                img.mb-4(src='@/assets/curso/tema4/18.svg' alt='')
+            h4.text-center.mb-4 Almacenamiento digital
+            p.text-center La organización de la información en plataformas tecnológicas facilita su consulta y conservación. 
+            p.mb-0 Ejemplo: almacenar las órdenes de despacho en un sistema ERP.
+          .tarjeta.tarjeta--blanca.p-4.py-5.shadow.m-3.mx-2
+            .row.justify-content-center.mb-3
+              .col-4.col-xl-5
+                img.mb-4(src='@/assets/curso/tema4/19.svg' alt='')
+            h4.text-center.mb-4 Intercambio de información
+            p.text-center La comunicación entre las áreas y los actores logísticos mejora la coordinación de las operaciones. 
+            p.mb-0 Ejemplo: compartir el estado del inventario entre la bodega y el área comercial.
+          .tarjeta.tarjeta--blanca.p-4.py-5.shadow.m-3.mx-2
+            .row.justify-content-center.mb-3
+              .col-4.col-xl-5
+                img.mb-4(src='@/assets/curso/tema4/20.svg' alt='')
+            h4.text-center.mb-4 Seguridad de datos
+            p.text-center La protección de la información evita pérdidas, alteraciones o accesos no autorizados. 
+            p.mb-0 Ejemplo: restringir el acceso a la base de datos de clientes mediante perfiles de usuario. 
+          .tarjeta.tarjeta--blanca.p-4.py-5.shadow.m-3.mx-2
+            .row.justify-content-center.mb-3
+              .col-4.col-xl-5
+                img.mb-4(src='@/assets/curso/tema4/21.svg' alt='')
+            h4.text-center.mb-4 Apoyo a decisiones
+            p.text-center La información organizada permite evaluar resultados y definir acciones de mejora. 
+            p.mb-0 Ejemplo: analizar los tiempos de entrega para optimizar las rutas de distribución.
 
+    .row.justify-content-center
+      .col-lg-10.col-xl-8
+        .bg-azul.p-4.py-3.rounded-4.mb-3
+          .row.justify-content-center.align-items-center
+            .col-lg-8
+              p.mb-4.mb-lg-0 #[strong Ejemplo:] DHL utiliza códigos de barras, sistemas ERP y plataformas digitales para fortalecer control operativo y mejorar comunicación entre áreas logísticas y comerciales.
+            .col-lg-4
+              figure
+                img.imgw-105(data-aos="fade-down-right", src="@/assets/curso/tema4/22.png", alt="")
 
+    .row.justify-content-center.align-items-center.mb-4.mb-lg-5
+      .col-sm-8.col-lg-5
+        figure
+          img.mb-4.mb-lg-0(src="@/assets/curso/tema4/23.png", alt="" data-aos="zoom-in-down")
+      .col-lg-7
+        .tarjeta.bg-terciario-t70.p-4.mb-3
+          .row.justify-content-around.align-items-center
+            .col-3.col-sm-2.d-none.d-lg-block
+              img.imgw-72(src="@/assets/curso/tema1/28.svg")
+            .col
+              .row.justify-content-between.align-items-center
+                .col.mb-3.mb-sm-0
+                  h4.text-white Indicadores de desempeño logísticos
+                  p.mb-0.text-white A continuación, se invita al siguiente video para fortalecer los conocimientos relacionados con planeación y control logístico:
 
+                .col-sm-auto.d-flex.gap-2.flex-column
+                  a.boton.color-acento-botones.d-block(href="https://www.youtube.com/watch?v=GsErfeaGSIM"  target="_blank" no-referrer)
+                    span Abrir video
+                    i.fas.fa-file-video
+        .tarjeta.bg-primario.p-4.mb-3
+          .row.justify-content-around.align-items-center
+            .col-3.col-sm-2.d-none.d-lg-block
+              img.imgw-72(src="@/assets/curso/tema6/12.svg")
+            .col
+              .row.justify-content-between.align-items-center
+                .col.mb-3.mb-sm-0
+                  h4.text-white Libro blanco de logística para comercio electrónico
+                  p.mb-0.text-white Se invita al aprendiz a profundizar en logística inversa y bioseguridad, a través del siguiente libro (página 98-109):
 
+                .col-sm-auto.d-flex.gap-2.flex-column
+                  a.boton.color-acento-botones.d-block(href="https://www.fesc.edu.co/portal/archivos/e_libros/logistica/ind_logistica.pdf" type="application/pdf" target="_blank" no-referrer)
+                    span Enlace web
+                    i.fas.fa-file-code
 
+        .bg-audio.rounded-4.mb-4.mb-lg-0.p-3
+          .row.align-items-center
+            .col-sm-4
+              figure.pt-3
+                img.imgw-185.mb-4.mb-sm-0(src="@/assets/curso/common/mic.png", alt="alt")
+            .col-sm-8.col-lg-8
+              p.text-white A continuación, se invita a ir al siguiente pódcast: 
+              TarjetaAudio.color-acento-contenido.mb-3(
+                texto="“Control logístico en el e-commerce: eficiencia, trazabilidad y KPI.”"
+                :audio="require_src('@/assets/curso/actividad/audio/fail.mp3')"
+                @audio-hover="mostrarIndicadorTarjetaAudio = false"
+              )
 
 
 
