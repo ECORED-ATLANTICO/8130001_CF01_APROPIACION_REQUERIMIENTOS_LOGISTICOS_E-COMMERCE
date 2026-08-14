@@ -174,8 +174,6 @@
             td(colspan="2") Determina las responsabilidades, actividades, registros y controles que deben aplicar las áreas involucradas en la logística inversa. 
             td(colspan="2") El área de servicio registra la solicitud, la bodega inspecciona el producto y contabilidad procesa el reembolso aprobado. 
 
-
-
     separador
 
     #t_5_4.titulo-segundo.color-acento-contenido(data-aos="flip-up")

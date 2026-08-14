@@ -95,12 +95,25 @@ figcaption, table caption
   background-repeat: no-repeat
   background-size: cover
   background-position: center
+
+.bg-slider
+  background: url('../assets/curso/common/bg-slider.png') no-repeat center center
+  background-size: cover
+  background-position: center
+  background-repeat: no-repeat
+
 // WIDTH
 .imgw-46
   width: 46px
   margin: 0 auto
+.imgw-54
+  width: 54px
+  margin: 0 auto
 .imgw-72
   width: 72px
+  margin: 0 auto
+.imgw-105
+  width: 105px
   margin: 0 auto
 .imgw-185
   width: 185px
@@ -120,10 +133,9 @@ figcaption, table caption
 .slyder-a
   .slyder-a__btn--atrs, .slyder-a__btn--sigt
     background-color: $color-acento-botones
-    background-image: url('../assets/curso/common/white-arrow.svg')
-    color: $white
   .slyder-a__bullets__item
     background-color: $color-acento-botones
+    border-color: $color-acento-botones
   &__bullets__item
     margin: 0 4px
     @media (min-width: $bp-min-sm)
