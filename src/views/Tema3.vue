@@ -180,7 +180,7 @@
     p.mb-4 A continuación, se muestra un análisis comparativo sobre los tres procesos: 
 
     .titulo-sexto.color-acento-contenido.mb-4
-      h5 Tabla 3.
+      h5 Tabla 2.
       span Instrumentos de diagnostico
     .tabla-b.color-acento-contenido.tabla-a--text-left.mb-4
       table
