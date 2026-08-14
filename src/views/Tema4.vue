@@ -114,7 +114,7 @@
         .bg-azul.p-4.py-3.rounded-4.mb-3
           .row.justify-content-center.align-items-center
             .col-lg-8
-              p.mb-4.mb-lg-0 #[strong Ejemplo:] Servientrega implementa la planeación logística para organizar sus recursos, procedimientos y actividades para garantizar el cumplimiento en sus operaciones de e-commerce.
+              p.mb-4.mb-lg-0 #[strong Ejemplo:] Servientrega implementa la planeación logística para organizar sus recursos, procedimientos y actividades para garantizar el cumplimiento en sus operaciones de #[em e-commerce].
             .col-lg-4
               figure
                 img.imgw-105(data-aos="fade-down-right", src="@/assets/curso/tema4/6.png", alt="")
