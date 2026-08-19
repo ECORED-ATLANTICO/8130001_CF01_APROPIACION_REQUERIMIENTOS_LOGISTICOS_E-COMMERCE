@@ -9,7 +9,7 @@
 
     img(src="@/assets/curso/tema5/1.png", alt="", data-aos="fade-up")
     .row.justify-content-center.z-2
-      .col-lg-10.p-4.drop-shadow(data-aos="fade-down")
+      .col-lg-10.p-3.p-lg-4.drop-shadow(data-aos="fade-down")
         div.banner-text.banner-text--secundario
           p.mb-0 La logística inversa y la bioseguridad forman parte de los procesos de control y sostenibilidad en operaciones de e-commerce. Estas actividades permiten gestionar devoluciones, garantizar condiciones seguras de manipulación y fortalecer la continuidad operativa dentro de la cadena logística.
     
@@ -73,7 +73,7 @@
         p.mb-0 Las técnicas de logística inversa incluyen los métodos utilizados para gestionar el retorno y aprovechamiento de los productos. Estas actividades permiten determinar si la mercancía puede reintegrarse al inventario o requiere eliminación. Las técnicas son las siguientes:
 
     .row.justify-content-center.align-items-center.z-2.mb-5
-      .col-lg-10.col-xl-8
+      .col-xl-10
         .titulo-sexto.color-acento-contenido.mb-4
           h5 Figura 5.
           span Técnicas de logística inversa
@@ -129,11 +129,11 @@
 
     separador
     #t_5_3.titulo-segundo.color-acento-contenido(data-aos="flip-up")
-      h2 5.3 Bioseguridad
+      h2 5.3 Normativas y políticas
 
     img(data-aos="fade-up", src="@/assets/curso/tema5/14.png", alt="")
     .row.justify-content-center.z-2
-      .col-lg-10.p-4.drop-shadow(data-aos="fade-down")
+      .col-lg-10.p-3.p-lg-4.drop-shadow(data-aos="fade-down")
         div.banner-text.banner-text--terciario
           p.mb-0 Las operaciones de logística inversa deben cumplir disposiciones legales, reglamentos internos y lineamientos organizacionales que regulan la gestión de las devoluciones, las garantías, la recuperación de productos y la disposición final de las mercancías, garantizando el cumplimiento de los requisitos legales, operativos y ambientales aplicables. Las normativas y políticas aplicables a la logística inversa son:
 
@@ -189,44 +189,44 @@
 
     TabsB.color-acento-botones.mb-4.mb-lg-5
       .py-4.py-md-5(titulo="Elementos de protección personal (EPP)" :icono="require_src('@/assets/curso/tema5/16.svg')")
-        .row.justify-content-center.align-items-center
+        .row.justify-content-center.align-items-center.px-4.px-lg-0
           .col-lg-7.col-xl-6
             h4 Elementos de protección personal (EPP)
             p El uso de guantes, gafas, mascarillas, casco y calzado de seguridad protege al personal frente a riesgos físicos, químicos o biológicos. 
-            p.mb-0 Ejemplo: utilizar guantes y gafas durante la inspección de productos devueltos con daños visibles.
+            p.mb-4.mb-lg-0 Ejemplo: utilizar guantes y gafas durante la inspección de productos devueltos con daños visibles.
           .col-sm-8.col-lg-4
             figure
               img(src='@/assets/curso/tema5/17.png', alt='')
       .py-4.py-md-5(titulo="Limpieza de superficies" :icono="require_src('@/assets/curso/tema5/16.svg')")
-        .row.justify-content-center.align-items-center
+        .row.justify-content-center.align-items-center.px-4.px-lg-0
           .col-lg-7.col-xl-6
             h4 Limpieza de superficies
             p La limpieza y desinfección periódica de mesas, equipos, herramientas y áreas de trabajo reducen la contaminación y mantienen condiciones seguras. 
-            p.mb-0 Ejemplo: desinfectar la zona de inspección al finalizar cada jornada o después de manipular productos contaminados.
+            p.mb-4.mb-lg-0 Ejemplo: desinfectar la zona de inspección al finalizar cada jornada o después de manipular productos contaminados.
           .col-sm-8.col-lg-4
             figure
               img(src='@/assets/curso/tema5/18.png', alt='')
       .py-4.py-md-5(titulo="Manipulación segura de mercancías" :icono="require_src('@/assets/curso/tema5/16.svg')")
-        .row.justify-content-center.align-items-center
+        .row.justify-content-center.align-items-center.px-4.px-lg-0
           .col-lg-7.col-xl-6
             h4 Manipulación segura de mercancías
             p La aplicación de técnicas adecuadas de levantamiento, movilización y almacenamiento disminuye accidentes y evita daños en los productos. 
-            p.mb-0 Ejemplo: trasladar una carga pesada con una transpaleta en lugar de hacerlo manualmente.
+            p.mb-4.mb-lg-0 Ejemplo: trasladar una carga pesada con una transpaleta en lugar de hacerlo manualmente.
           .col-sm-8.col-lg-4
             figure
               img(src='@/assets/curso/tema5/19.png', alt='')
       .py-4.py-md-5(titulo="Control sanitario en transporte y almacenamiento" :icono="require_src('@/assets/curso/tema5/16.svg')")
-        .row.justify-content-center.align-items-center
+        .row.justify-content-center.align-items-center.px-4.px-lg-0
           .col-lg-7.col-xl-6
             h4 Control sanitario en transporte y almacenamiento
             p La verificación de las condiciones de higiene, temperatura, ventilación y conservación protege la calidad de los productos durante su movilización y permanencia en bodega. 
-            p.mb-0 Ejemplo: mantener medicamentos o alimentos retornados en áreas con temperatura controlada hasta definir su destino.
+            p.mb-4.mb-lg-0 Ejemplo: mantener medicamentos o alimentos retornados en áreas con temperatura controlada hasta definir su destino.
           .col-sm-8.col-lg-4
             figure
               img(src='@/assets/curso/tema5/20.png', alt='')
 
     .row.justify-content-center.align-items-center.mb-4.mb-lg-5
-      .col-sm-8.col-lg-4
+      .col-sm-8.col-lg-4.d-none.d-lg-block
         figure
           img.mb-4.mb-lg-0(src="@/assets/curso/tema5/21.png", alt="" data-aos="zoom-in-down")
       .col-lg-8
@@ -257,7 +257,7 @@
                 .col-sm-auto.d-flex.gap-2.flex-column
                   a.boton.color-acento-botones.d-block(href="https://ecommerce.institute/wp-content/uploads/lb-logistica-2016.pdf" type="application/pdf" target="_blank" no-referrer)
                     span Enlace web
-                    i.fas.fa-file-code
+                    i.fas.fa-file-pdf
 
 </template>
 

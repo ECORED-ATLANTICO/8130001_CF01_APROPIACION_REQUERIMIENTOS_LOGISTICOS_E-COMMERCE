@@ -48,7 +48,7 @@ figcaption, table caption
 
 .banner-interno__fondo
   background-image: url("../assets/curso/banner_interno.png") !important
-  background-color: $color-primario-p5 !important
+  background-color: #87DFFF !important
 .banner-principal .tarjeta
   @media screen and (max-width: $bp-max-md)
     background-image: url("../assets/curso/portada/fondo-banner-principal-sm.png") !important
@@ -88,6 +88,8 @@ figcaption, table caption
   background-color: $color-acento-contenido-a10
 .bg-gris-sistema
   background-color: $color-sistema-h
+.bg-gris-oscuro
+  background-color: #D7D9DE
 
 .bg-audio
   background-color: $color-acento-contenido
@@ -115,8 +117,20 @@ figcaption, table caption
 .imgw-72
   width: 72px
   margin: 0 auto
+.imgw-100
+  width: 100px
+  margin: 0 auto
 .imgw-105
   width: 105px
+  margin: 0 auto
+.imgw-110
+  width: 110px
+  margin: 0 auto
+.imgw-115
+  width: 115px
+  margin: 0 auto
+.imgw-130
+  width: 130px
   margin: 0 auto
 .imgw-185
   width: 185px
@@ -126,8 +140,11 @@ figcaption, table caption
 .banner-text
   background: $color-primario-p10
   border-radius: 10px
-  padding: 20px 30px
-  margin-top: -80px
+  padding: 20px
+  margin-top: -30px
+  @media screen and (min-width: $bp-min-md)
+    padding: 20px 30px
+    margin-top: -80px
   &--secundario
     background-color: $color-secundario-s5
   &--terciario
@@ -137,8 +154,8 @@ figcaption, table caption
   .slyder-a__btn--atrs, .slyder-a__btn--sigt
     background-color: $color-acento-botones
   .slyder-a__bullets__item
-    background-color: $color-acento-botones
-    border-color: $color-acento-botones
+    background-color: #925C2D
+    border-color: #925C2D
   &__bullets__item
     margin: 0 4px
     @media (min-width: $bp-min-sm)
@@ -201,6 +218,10 @@ figcaption, table caption
   .acordion__activo
     background-color: $color-primario-p10
     transition: all 0.3s ease-out
+
+  .bg-gris-oscuro
+    &.acordion__activo
+      background-color: #F4F5F6 !important
 
 .tabla-a
   &--text-left
@@ -323,7 +344,7 @@ ul.checklist
     .linea-tiempo-d__item__content
       background-color: $color-secundario-s5
     .linea-tiempo-d__item__number
-      background-color: $color-secundario-s5 !important
+      background-color: $color-secundario-s20 !important
       color: $color-sistema-texto !important
 
 .tabs-b
@@ -337,3 +358,6 @@ ul.checklist
 
 .accesibilidad
   z-index: 3
+
+.tabla-b td
+  padding: 15px !important

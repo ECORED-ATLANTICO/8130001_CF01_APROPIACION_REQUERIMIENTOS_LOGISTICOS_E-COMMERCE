@@ -112,42 +112,42 @@
 
     AcordionA(tipo="a" clase-tarjeta="tarjeta bg-contenido-a10").mb-5
       .row.align-items-center.justify-content-center(titulo="Carga general")
-        .col-lg-6.mb-4.mb-lg-0
+        .col-lg-7.mb-4.mb-lg-0
           p Comprende mercancías individuales o agrupadas que pueden manipularse como unidades independientes mediante cajas, sacos, tambores o estibas. 
           p.mb-4.mb-lg-0 Ejemplos: electrodomésticos, ropa, calzado y alimentos empacados.
         .col-sm-8.col-lg-4
           figure
             img(src='@/assets/curso/tema3/12.png', alt='')
       .row.align-items-center.justify-content-center(titulo="Carga a granel")
-        .col-lg-6.mb-4.mb-lg-0
+        .col-lg-7.mb-4.mb-lg-0
           p Corresponde a productos transportados sin empaque individual, almacenados directamente en recipientes, silos o contenedores especializados. 
           p.mb-4.mb-lg-0 Ejemplos: cereales, arena, cemento, carbón y fertilizantes.
         .col-sm-8.col-lg-4
           figure
             img(src='@/assets/curso/tema3/13.png', alt='')
       .row.align-items-center.justify-content-center(titulo="Carga contenerizada")
-        .col-lg-6.mb-4.mb-lg-0
+        .col-lg-7.mb-4.mb-lg-0
           p Reúne mercancías consolidadas dentro de contenedores para facilitar su manipulación, proteger la carga y optimizar el transporte multimodal.
           p.mb-4.mb-lg-0 Ejemplos: muebles, equipos electrónicos, textiles y repuestos industriales.
         .col-sm-8.col-lg-4
           figure
             img(src='@/assets/curso/tema3/14.png', alt='')
       .row.align-items-center.justify-content-center(titulo="Carga refrigerada")
-        .col-lg-6.mb-4.mb-lg-0
+        .col-lg-7.mb-4.mb-lg-0
           p Incluye productos que requieren temperatura controlada para conservar su calidad durante el almacenamiento y el transporte. 
           p.mb-4.mb-lg-0 Ejemplos: carnes, lácteos, vacunas y frutas frescas.
         .col-sm-8.col-lg-4
           figure
             img(src='@/assets/curso/tema3/15.png', alt='')
       .row.align-items-center.justify-content-center(titulo="Carga peligrosa")
-        .col-lg-6.mb-4.mb-lg-0
+        .col-lg-7.mb-4.mb-lg-0
           p Agrupa mercancías que presentan riesgos químicos, biológicos o físicos y requieren protocolos especiales de manipulación, almacenamiento y transporte. 
           p.mb-4.mb-lg-0 Ejemplos: combustibles, pinturas, gases comprimidos y baterías de litio.
         .col-sm-8.col-lg-4
           figure
             img(src='@/assets/curso/tema3/16.png', alt='')
       .row.align-items-center.justify-content-center(titulo="Carga sobredimensionada")
-        .col-lg-6.mb-4.mb-lg-0
+        .col-lg-7.mb-4.mb-lg-0
           p Comprende mercancías cuyo peso o dimensiones superan los límites convencionales, requiriendo equipos y permisos especiales para su movilización. 
           p.mb-4.mb-lg-0 Ejemplos: maquinaria industrial, transformadores eléctricos y estructuras metálicas.
         .col-sm-8.col-lg-4
@@ -324,7 +324,7 @@
                 .col-sm-auto.d-flex.gap-2.flex-column
                   a.boton.color-acento-botones.d-block(href="https://ccas.org.co/wp-content/uploads/Logistica-para-Ecommerce-2.pdf" type="application/pdf" target="_blank" no-referrer)
                     span Enlace web
-                    i.fas.fa-file-code
+                    i.fas.fa-file-pdf
 
 </template>
 

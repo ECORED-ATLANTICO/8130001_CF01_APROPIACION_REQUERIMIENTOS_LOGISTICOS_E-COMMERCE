@@ -22,7 +22,7 @@
 
     img(src="@/assets/curso/tema2/2.png", alt="", data-aos="zoom-in-down")
     .row.justify-content-center.z-2
-      .col-lg-10.p-4.drop-shadow(data-aos="fade-down")
+      .col-lg-10.p-3.p-lg-4.drop-shadow(data-aos="fade-down")
         div.banner-text.banner-text--terciario
           p.mb-0 Las operaciones logísticas pueden ejecutarse dentro del territorio nacional o involucrar el intercambio de mercancías entre diferentes países, según el alcance de la cadena de suministro y los mercados atendidos. Cada ámbito requiere procesos de planificación, coordinación y control acordes con las características de la operación, las condiciones de transporte, la documentación exigida y el cumplimiento de la normativa aplicable. Comprender estas diferencias facilita la toma de decisiones y contribuye al desarrollo de operaciones logísticas eficientes y seguras.
 
@@ -74,7 +74,7 @@
       
     .row.justify-content-center.align-items-center.mb-4.mb-lg-5.z-2
       .col-lg-8
-        .p-4.p-xl-5.bg-slider
+        .p-4.p-xl-5.bg-slider.mb-4.mb-lg-0
           SlyderA(tipo="b").p-3.p-lg-4.tarjeta.tarjeta--blanca
             div
               h4.mb-4 Recolección de mercancías
@@ -113,7 +113,7 @@
           .col-lg-6
             h4.mb-4 Planificación de rutas de entrega
             p Define el recorrido más eficiente para distribuir los pedidos, considerando distancia, tráfico y prioridades. 
-            p.mb-0 Ejemplo: asignar una ruta que permita entregar veinte pedidos en un mismo sector.
+            p.mb-4.mb-lg-0 Ejemplo: asignar una ruta que permita entregar veinte pedidos en un mismo sector.
           .col-lg-5
             figure
               img(data-aos="fade-down-right", src="@/assets/curso/tema2/5.png", alt="")
@@ -121,7 +121,7 @@
           .col-lg-6
             h4.mb-4 Confirmación de dirección y datos del cliente
             p Verifica la información del destinatario para evitar retrasos o entregas fallidas. 
-            p.mb-0 Ejemplo: validar el número del apartamento antes de despachar un pedido.
+            p.mb-4.mb-lg-0 Ejemplo: validar el número del apartamento antes de despachar un pedido.
           .col-lg-5
             figure
               img(data-aos="fade-down-right", src="@/assets/curso/tema2/6.png", alt="")
@@ -129,7 +129,7 @@
           .col-lg-6
             h4.mb-4 Seguimiento en tiempo real del pedido
             p Permite conocer la ubicación del envío durante el recorrido y mantener informado al cliente. 
-            p.mb-0 Ejemplo: consultar el estado del paquete desde una aplicación móvil.
+            p.mb-4.mb-lg-0 Ejemplo: consultar el estado del paquete desde una aplicación móvil.
           .col-lg-5
             figure
               img(data-aos="fade-down-right", src="@/assets/curso/tema2/7.png", alt="")
@@ -137,7 +137,7 @@
           .col-lg-6
             h4.mb-4 Cumplimiento de los tiempos de entrega
             p Controla que los pedidos lleguen dentro del plazo comprometido, fortaleciendo la satisfacción del cliente. 
-            p.mb-0 Ejemplo: entregar una compra realizada en la mañana durante la misma tarde.
+            p.mb-4.mb-lg-0 Ejemplo: entregar una compra realizada en la mañana durante la misma tarde.
           .col-lg-5
             figure
               img(data-aos="fade-down-right", src="@/assets/curso/tema2/8.png", alt="")
@@ -145,7 +145,7 @@
           .col-lg-6
             h4.mb-4 Evidencia de entrega o devolución
             p Registra el resultado de la entrega mediante soportes físicos o digitales que respaldan la operación. 
-            p.mb-0 Ejemplo: capturar la firma o una fotografía al entregar el paquete.
+            p.mb-4.mb-lg-0 Ejemplo: capturar la firma o una fotografía al entregar el paquete.
           .col-lg-5
             figure
               img(data-aos="fade-down-right", src="@/assets/curso/tema2/9.png", alt="")
@@ -153,7 +153,7 @@
           .col-lg-6
             h4.mb-4 Atención al cliente durante la entrega
             p Brinda información y solución a inquietudes relacionadas con el pedido, fortaleciendo la experiencia de compra. 
-            p.mb-0 Ejemplo: informar al cliente sobre un cambio en el horario de entrega.
+            p.mb-4.mb-lg-0 Ejemplo: informar al cliente sobre un cambio en el horario de entrega.
           .col-lg-5
             figure
               img(data-aos="fade-down-right", src="@/assets/curso/tema2/10.png", alt="")
@@ -166,7 +166,7 @@
               p.mb-4.mb-lg-0 #[strong Ejemplo:] empresas de mensajería y plataformas digitales utilizan sistemas de rastreo y geolocalización para optimizar rutas y reducir tiempos de entrega.
             .col-lg-4
               figure
-                img.imgw-105(data-aos="fade-down-right", src="@/assets/curso/tema2/11.png", alt="")
+                img.imgw-130(data-aos="fade-down-right", src="@/assets/curso/tema2/11.png", alt="")
 
     separador
     #t_2_3.titulo-segundo.color-acento-contenido(data-aos="flip-up")
@@ -175,7 +175,7 @@
     img(src="@/assets/curso/tema2/12.png", alt="", data-aos="fade-up")
     
     .row.justify-content-center.z-2
-      .col-lg-10.p-4.drop-shadow(data-aos="fade-down")
+      .col-lg-10.p-3.p-lg-4.drop-shadow(data-aos="fade-down")
         div.banner-text.banner-text--terciario
           p.mb-0 Los operadores logísticos desempeñan un papel fundamental en la cadena de suministro; dado que se especializan en almacenamiento, transporte, distribución y control de mercancías; contribuyendo al flujo eficiente de mercancías e información. Estas organizaciones apoyan a las empresas de e-commerce en la gestión de procesos logísticos y cumplimiento de entregas, mediante soluciones adaptadas a las necesidades de cada operación. Existen operadores especializados en transporte urbano, carga nacional, distribución internacional y logística de última milla. La selección del operador depende del tipo de producto, cobertura y requerimientos del servicio.
 
@@ -239,7 +239,7 @@
               p.mb-4.mb-lg-0 #[strong Ejemplo:] las empresas como Servientrega, Coordinadora y DHL ofrecen soluciones logísticas para operaciones de comercio electrónico en diferentes sectores productivos.
             .col-lg-4
               figure
-                img.imgw-105(data-aos="fade-down-right", src="@/assets/curso/tema2/21.png", alt="")
+                img.imgw-110(data-aos="fade-down-right", src="@/assets/curso/tema2/21.png", alt="")
 
     separador
     #t_2_4.titulo-segundo.color-acento-contenido(data-aos="flip-up")
@@ -262,7 +262,7 @@
         figure
           img.mb-4.mb-lg-0(src="@/assets/curso/tema2/23.png", alt="" data-aos="zoom-in-down")
       .col-lg-7
-        AcordionA(tipo="a" clase-tarjeta="tarjeta bg-contenido-a10")
+        AcordionA(tipo="a" clase-tarjeta="tarjeta bg-gris-oscuro")
           div(titulo="Posiciones de almacenamiento")
             p Definir posiciones de almacenamiento facilita la ubicación rápida de las mercancías, optimiza el aprovechamiento del espacio y reduce el tiempo requerido para las actividades de búsqueda, alistamiento y despacho.
           div(titulo="Clasificación de productos")
@@ -274,7 +274,7 @@
 
     .row.justify-content-center.align-items-center.mb-4.mb-lg-5
       .col-lg-7.mb-4.mb-lg-0
-        AcordionA(tipo="a" clase-tarjeta="tarjeta bg-contenido-a10")
+        AcordionA(tipo="a" clase-tarjeta="tarjeta bg-gris-oscuro")
           div(titulo="Aprovechamiento del espacio")
             p Organizar eficientemente las áreas de almacenamiento incrementa la capacidad disponible, mejora la circulación del personal y los equipos, y favorece operaciones más ágiles y seguras.
           div(titulo="Sistemas de gestión")
@@ -349,7 +349,7 @@
               p.mb-4.mb-lg-0 #[strong Ejemplo:] el crecimiento del comercio electrónico ha impulsado el uso de bodegas inteligentes, sistemas automatizados y centros de distribución regionales para mejorar eficiencia y competitividad empresarial.
             .col-lg-4
               figure
-                img.imgw-105(data-aos="fade-down-right", src="@/assets/curso/tema2/34.png", alt="")
+                img.imgw-100(data-aos="fade-down-right", src="@/assets/curso/tema2/34.png", alt="")
 
     .row.justify-content-center.align-items-center.mb-4.mb-lg-5
       .col-sm-8.col-lg-4
@@ -383,7 +383,7 @@
                 .col-sm-auto.d-flex.gap-2.flex-column
                   a.boton.color-acento-botones.d-block(href="https://www.fesc.edu.co/portal/archivos/e_libros/logistica/gestion_logistica.pdf" type="application/pdf" target="_blank" no-referrer)
                     span Enlace web
-                    i.fas.fa-file-code
+                    i.fas.fa-file-pdf
 
 </template>
 

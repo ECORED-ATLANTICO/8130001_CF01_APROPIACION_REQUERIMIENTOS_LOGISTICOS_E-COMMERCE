@@ -10,7 +10,7 @@
     img(src="@/assets/curso/tema6/1.png", alt="", data-aos="fade-up")
     
     .row.justify-content-center.z-2
-      .col-lg-10.p-4.drop-shadow(data-aos="fade-down")
+      .col-lg-10.p-3.p-lg-4.drop-shadow(data-aos="fade-down")
         div.banner-text.banner-text--secundario
           p.mb-0 El soporte tecnológico y el cumplimiento normativo permiten fortalecer el control, seguridad y continuidad de las operaciones logísticas en entornos de e-commerce. Las organizaciones requieren herramientas digitales que faciliten seguimiento de pedidos, gestión documental y administración de información logística.
 
@@ -168,7 +168,7 @@
                 .col-sm-auto.d-flex.gap-2.flex-column
                   a.boton.color-acento-botones.d-block(href="https://www.fesc.edu.co/portal/archivos/e_libros/logistica/gestion_logistica.pdf" type="application/pdf" target="_blank" no-referrer)
                     span Enlace web
-                    i.fas.fa-file-code
+                    i.fas.fa-file-pdf
 
 </template>
 

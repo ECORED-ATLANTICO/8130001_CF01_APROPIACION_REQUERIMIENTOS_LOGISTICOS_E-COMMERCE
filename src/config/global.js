@@ -376,7 +376,7 @@ export default {
     },
     {
       referencia:
-        'Meléndez, M. (2018). El <em>marketing</em> digital transforma la gestión de pymes en Colombia. Recuperado de: https://www.redalyc.org/jatsRepo/4096/409658132001/html/index.html',
+        'Meléndez, M. (2018). El <em>marketing</em> digital transforma la gestión de pymes en Colombia. Recuperado de:',
       link: 'https://www.redalyc.org/jatsRepo/4096/409658132001/html/index.html',
     },
     {
@@ -391,12 +391,12 @@ export default {
     },
     {
       referencia:
-        'Banco de la República. (2021). Pasarelas de pago. Recuperado de: https://www.banrep.gov.co/es/node/40991',
+        'Banco de la República. (2021). Pasarelas de pago. Recuperado de:',
       link: 'https://www.banrep.gov.co/es/node/40991',
     },
     {
       referencia:
-        'Betancur, C. (2021). Comparación de pasarelas de pago en Colombia. BTODigital. Recuperado de: https://btodigital.com/comparacion-de-pasarelas-de-pago-encolombia/',
+        'Betancur, C. (2021). Comparación de pasarelas de pago en Colombia. BTODigital. Recuperado de:',
       link: 'https://btodigital.com/comparacion-de-pasarelas-de-pago-encolombia/',
     },
     {

@@ -10,7 +10,7 @@
     img(src="@/assets/curso/tema1/1.png", data-aos="fade-up", alt="")
     
     .row.justify-content-center.z-2
-      .col-lg-10.p-4.drop-shadow(data-aos="fade-down")
+      .col-lg-10.p-3.p-lg-4.drop-shadow(data-aos="fade-down")
         div.banner-text
           p.mb-0 Las operaciones de e-commerce han transformado la gestión comercial y logística de las organizaciones. Actualmente, las empresas requieren integrar procesos de distribución, almacenamiento y control de pedidos para responder a las exigencias del consumidor digital. En este contexto, la logística se convierte en un elemento estratégico para garantizar eficiencia operativa y competitividad empresarial.  
     
@@ -31,10 +31,10 @@
       .col-lg-10.col-xl-8
         .p-4.py-sm-4.rounded-4.bg-azul
           .row.justify-content-center.align-items-center
-            .col-sm-9
-              p.mb-4.mb-sm-0 #[strong Ejemplo]: empresas como Mercado Libre y Amazon utilizan sistemas logísticos automatizados para optimizar la preparación de pedidos y reducir tiempos de distribución. Estas estrategias fortalecen la experiencia del consumidor y mejoran la competitividad empresarial.
-            .col-6.col-sm-3
-              img(src="@/assets/curso/tema1/3.png", alt="")
+            .col-lg-8
+              p.mb-4.mb-lg-0 #[strong Ejemplo]: empresas como Mercado Libre y Amazon utilizan sistemas logísticos automatizados para optimizar la preparación de pedidos y reducir tiempos de distribución. Estas estrategias fortalecen la experiencia del consumidor y mejoran la competitividad empresarial.
+            .col-lg-4
+              img.imgw-100(src="@/assets/curso/tema1/3.png", alt="")
 
     separador
     #t_1_2.titulo-segundo.color-acento-contenido(data-aos="flip-up")
@@ -90,7 +90,7 @@
             .col-sm-9
               p.mb-4.mb-sm-0 #[strong Ejemplo]: empresas como Falabella integran centros de distribución, operadores logísticos y plataformas tecnológicas para controlar inventarios y monitorear entregas en tiempo real.
             .col-6.col-sm-3
-              img(src="@/assets/curso/tema1/10.png", alt="")
+              img.imgw-115(src="@/assets/curso/tema1/10.png", alt="")
 
     separador
     #t_1_3.titulo-segundo.color-acento-contenido(data-aos="flip-up")
@@ -111,9 +111,9 @@
             figure
               img(src="@/assets/curso/tema1/12.png", alt="alt")
           .crd_hover_txt--body
-            h4.mb-4 B2B (#[em eBusiness to Business])
+            h4.mb-4 B2B (#[em Business to Business])
             p Corresponde a transacciones comerciales entre empresas, donde una organización suministra productos o servicios a otra para apoyar su operación o comercialización. 
-            p.mb-0 #[em Ejemplos]: un fabricante vende a un distribuidor, un proveedor de software atiende una cadena de supermercados.
+            p.mb-0 #[strong Ejemplos]: un fabricante vende a un distribuidor, un proveedor de software atiende una cadena de supermercados.
 
       .col-sm-8.col-lg-6.col-xl-4.mb-4.mb-xl-0
         .crd_hover_txt(data-aos="flip-left").tarjeta
@@ -123,7 +123,7 @@
           .crd_hover_txt--body
             h4.mb-4 B2C (#[em Business to Consumer])
             p Comprende las ventas realizadas por una empresa directamente al consumidor final mediante canales físicos o digitales, priorizando una experiencia de compra ágil y personalizada.
-            p.mb-0 #[em Ejemplos]: adquirir un celular en Mercado Libre, comprar ropa en la tienda virtual de Adidas.
+            p.mb-0 #[strong Ejemplos]: adquirir un celular en Mercado Libre, comprar ropa en la tienda virtual de Adidas.
 
       .col-sm-8.col-lg-6.col-xl-4
         .crd_hover_txt(data-aos="flip-left").tarjeta
@@ -133,7 +133,7 @@
           .crd_hover_txt--body
             h4.mb-4 B2G (#[em Business to Government])
             p Reúne las operaciones comerciales entre empresas y entidades públicas para suministrar bienes o prestar servicios, generalmente mediante procesos de contratación. 
-            p.mb-0 #[em Ejemplos]: una empresa entrega equipos de cómputo a una alcaldía, un operador logístico distribuye medicamentos para un hospital público.
+            p.mb-0 #[strong Ejemplos]: una empresa entrega equipos de cómputo a una alcaldía, un operador logístico distribuye medicamentos para un hospital público.
 
     .bg-secundario-s20.p-4.py-3.rounded-4.mb-4
       p.mb-0.text-center Empresas distribuidoras, plataformas digitales y operadores logísticos adaptan sus procesos según el tipo de negociación y mercado objetivo.      
@@ -145,7 +145,7 @@
     img(src="@/assets/curso/tema1/15.png", data-aos="fade-up", alt="")
     
     .row.justify-content-center.z-2
-      .col-lg-10.p-4.drop-shadow(data-aos="fade-down")
+      .col-lg-10.p-3.p-lg-4.drop-shadow(data-aos="fade-down")
         div.banner-text
           p.mb-0 El desarrollo del comercio electrónico requiere el cumplimiento de disposiciones legales que regulan las transacciones digitales, protegen los derechos de las partes involucradas y brindan seguridad a las operaciones comerciales. Conocer este marco normativo facilita la implementación de procesos logísticos confiables, fortalece la relación con clientes y proveedores, y favorece el desarrollo de actividades alineadas con la legislación vigente en los ámbitos nacional e internacional
 

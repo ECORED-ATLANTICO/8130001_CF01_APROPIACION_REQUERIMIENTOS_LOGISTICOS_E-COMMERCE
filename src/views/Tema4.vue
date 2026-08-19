@@ -9,7 +9,7 @@
 
     img(src="@/assets/curso/tema4/1.png", alt="", data-aos="fade-up")
     .row.justify-content-center.z-2
-      .col-lg-10.p-4.drop-shadow(data-aos="fade-down")
+      .col-lg-10.p-3.p-lg-4.drop-shadow(data-aos="fade-down")
         div.banner-text.banner-text--secundario
           p.mb-0 La planeación y control logístico comprende los procesos orientados a organizar, supervisar y optimizar operaciones de distribución, almacenamiento y transporte en entornos de e-commerce. Estas actividades permiten mejorar el uso de recursos, reducir costos y garantizar cumplimiento en las entregas.
 
@@ -287,7 +287,7 @@
               p.mb-4.mb-lg-0 #[strong Ejemplo:] DHL utiliza códigos de barras, sistemas ERP y plataformas digitales para fortalecer control operativo y mejorar comunicación entre áreas logísticas y comerciales.
             .col-lg-4
               figure
-                img.imgw-105(data-aos="fade-down-right", src="@/assets/curso/tema4/22.png", alt="")
+                img.imgw-130(data-aos="fade-down-right", src="@/assets/curso/tema4/22.png", alt="")
 
     .row.justify-content-center.align-items-center.mb-4.mb-lg-5
       .col-sm-8.col-lg-5
@@ -321,7 +321,7 @@
                 .col-sm-auto.d-flex.gap-2.flex-column
                   a.boton.color-acento-botones.d-block(href="https://www.fesc.edu.co/portal/archivos/e_libros/logistica/ind_logistica.pdf" type="application/pdf" target="_blank" no-referrer)
                     span Enlace web
-                    i.fas.fa-file-code
+                    i.fas.fa-file-pdf
 
         .bg-audio.rounded-4.mb-4.mb-lg-0.p-3
           .row.align-items-center
