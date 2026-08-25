@@ -264,25 +264,25 @@
       .col-lg-7
         AcordionA(tipo="a" clase-tarjeta="tarjeta bg-gris-oscuro")
           div(titulo="Posiciones de almacenamiento")
-            p Definir posiciones de almacenamiento facilita la ubicación rápida de las mercancías, optimiza el aprovechamiento del espacio y reduce el tiempo requerido para las actividades de búsqueda, alistamiento y despacho.
+            p.ms-lg-5.ps-lg-2 Definir posiciones de almacenamiento facilita la ubicación rápida de las mercancías, optimiza el aprovechamiento del espacio y reduce el tiempo requerido para las actividades de búsqueda, alistamiento y despacho.
           div(titulo="Clasificación de productos")
-            p Agrupar los productos según sus características físicas, condiciones de conservación o nivel de rotación favorece el orden, simplifica la manipulación y disminuye el riesgo de errores operativos.
+            p.ms-lg-5.ps-lg-2 Agrupar los productos según sus características físicas, condiciones de conservación o nivel de rotación favorece el orden, simplifica la manipulación y disminuye el riesgo de errores operativos.
           div(titulo="Rotación de inventarios")
-            p Aplicar métodos de rotación adecuados permite controlar la salida de los productos según su ingreso o vencimiento, evitando pérdidas, obsolescencia y acumulación innecesaria de existencias.
+            p.ms-lg-5.ps-lg-2 Aplicar métodos de rotación adecuados permite controlar la salida de los productos según su ingreso o vencimiento, evitando pérdidas, obsolescencia y acumulación innecesaria de existencias.
           div(titulo="Condiciones de conservación")
-            p Mantener condiciones apropiadas de temperatura, humedad, iluminación y seguridad preserva la calidad de las mercancías y minimiza el riesgo de deterioro durante el almacenamiento.
+            p.ms-lg-5.ps-lg-2 Mantener condiciones apropiadas de temperatura, humedad, iluminación y seguridad preserva la calidad de las mercancías y minimiza el riesgo de deterioro durante el almacenamiento.
 
     .row.justify-content-center.align-items-center.mb-4.mb-lg-5
       .col-lg-7.mb-4.mb-lg-0
         AcordionA(tipo="a" clase-tarjeta="tarjeta bg-gris-oscuro")
           div(titulo="Aprovechamiento del espacio")
-            p Organizar eficientemente las áreas de almacenamiento incrementa la capacidad disponible, mejora la circulación del personal y los equipos, y favorece operaciones más ágiles y seguras.
+            p.ms-lg-5.ps-lg-2 Organizar eficientemente las áreas de almacenamiento incrementa la capacidad disponible, mejora la circulación del personal y los equipos, y favorece operaciones más ágiles y seguras.
           div(titulo="Sistemas de gestión")
-            p Utilizar herramientas tecnológicas para administrar el almacén permite controlar inventarios, registrar movimientos, asignar posiciones y consultar información en tiempo real.
+            p.ms-lg-5.ps-lg-2 Utilizar herramientas tecnológicas para administrar el almacén permite controlar inventarios, registrar movimientos, asignar posiciones y consultar información en tiempo real.
           div(titulo="Identificación de mercancías")
-            p Implementar códigos, etiquetas o tecnologías de identificación facilita la localización de los productos, fortalece la trazabilidad y mejora la precisión de las operaciones logísticas.
+            p.ms-lg-5.ps-lg-2 Implementar códigos, etiquetas o tecnologías de identificación facilita la localización de los productos, fortalece la trazabilidad y mejora la precisión de las operaciones logísticas.
           div(titulo="Preparación de pedidos")
-            p Organizar el alistamiento de los pedidos garantiza que cada producto corresponda a la solicitud del cliente, reduciendo errores y favoreciendo entregas oportunas y completas.
+            p.ms-lg-5.ps-lg-2 Organizar el alistamiento de los pedidos garantiza que cada producto corresponda a la solicitud del cliente, reduciendo errores y favoreciendo entregas oportunas y completas.
       .col-sm-8.col-lg-5
         figure
           img(src="@/assets/curso/tema2/24.png", alt="" data-aos="zoom-in-down")
