@@ -18,7 +18,7 @@
           .col-xl-8
             .p-4.py-3.rounded-4.bg-primario-p10
               p.mb-0 La evolución de los modelos digitales de comercialización ha transformado los procesos logísticos empresariales. Actualmente, las organizaciones enfrentan desafíos asociados con la rapidez en las entregas, control de inventarios, trazabilidad de productos y administración eficiente de operaciones de distribución. En este contexto, la logística deja de ser únicamente un proceso operativo para convertirse en un factor estratégico de competitividad.
-        p.mb-lg-0 El crecimiento del <em>e-commerce</em> en mercados nacionales e internacionales ha incrementado la necesidad de integrar tecnologías, modelos de distribución y mecanismos de control que permitan responder a consumidores más informados y exigentes. Empresas como Mercado Libre, Amazon, Falabella, Éxito entre otras han fortalecido sus procesos logísticos mediante sistemas de almacenamiento inteligente, automatización de pedidos y monitoreo de entregas en tiempo real.
+        p.mb-lg-0 El crecimiento del <em>e-commerce</em> en mercados nacionales e internacionales ha incrementado la necesidad de integrar tecnologías, modelos de distribución y mecanismos de control que permitan responder a consumidores más informados y exigentes. Empresas como Mercado Libre, Amazon, Falabella, Éxito, entre otras, han fortalecido sus procesos logísticos mediante sistemas de almacenamiento inteligente, automatización de pedidos y monitoreo de entregas en tiempo real.
       .col-sm-8.col-lg-4
         figure
           img.mb-4.mb-lg-0(src="@/assets/curso/introduccion/2.png", alt="" data-aos="zoom-in-down")

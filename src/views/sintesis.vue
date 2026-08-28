@@ -2,7 +2,7 @@
 .curso-main-container.pb-3
   BannerInterno(icono="fas fa-sitemap" titulo="Síntesis")
   .container.tarjeta.tarjeta--blanca.p-4.p-md-5
-    p.mb-5 El componente formativo Planeación logística en e-commerce aborda los fundamentos del comercio electrónico y los modelos de negociación, integrando componentes logísticos y normativa aplicable; continúa con la logística de distribución y almacenamiento, considerando operadores logísticos, primera y última milla y tiempos de entrega; desarrolla la gestión de carga y preparación de pedidos mediante procesos de marcado, empacado, cubicaje y picking; asimismo, analiza la planeación y control logístico mediante indicadores KPI y trazabilidad; y finaliza con logística inversa, bioseguridad, soporte tecnológico y cumplimiento normativo en operaciones logísticas digitales.
+    p.mb-5 El componente formativo Planeación logística en <em>e-commerce</em> aborda los fundamentos del comercio electrónico y los modelos de negociación, integrando componentes logísticos y normativa aplicable; continúa con la logística de distribución y almacenamiento, considerando operadores logísticos, primera y última milla y tiempos de entrega; desarrolla la gestión de carga y preparación de pedidos mediante procesos de marcado, empacado, cubicaje y <em>picking</em>; asimismo, analiza la planeación y control logístico mediante indicadores KPI y trazabilidad; y finaliza con logística inversa, bioseguridad, soporte tecnológico y cumplimiento normativo en operaciones logísticas digitales.
 
     .row.justify-content-center
       .col-12

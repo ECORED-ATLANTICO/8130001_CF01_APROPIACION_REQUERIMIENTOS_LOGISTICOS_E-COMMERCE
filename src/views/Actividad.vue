@@ -57,7 +57,7 @@ export default {
             },
           ],
           mensaje_correcto:
-            '¡Correcto! La logística en <em>e-commerce</em> permite gestionar almacenamiento, distribución y entrega de productos para satisfacer al cliente.',
+            '¡Correcto! La logística en e-commerce permite gestionar almacenamiento, distribución y entrega de productos para satisfacer al cliente.',
           mensaje_incorrecto:
             'Revise nuevamente el contenido del componente formativo.',
         },
@@ -151,7 +151,7 @@ export default {
             },
             {
               id: 'd',
-              texto: 'Picking.',
+              texto: '<em>Picking</em>.',
               esCorrecta: false,
             },
           ],
@@ -249,7 +249,7 @@ export default {
             },
             {
               id: 'd',
-              texto: 'Dropshipping.',
+              texto: '<em>Dropshipping</em>.',
               esCorrecta: false,
             },
           ],
@@ -267,7 +267,7 @@ export default {
           opciones: [
             {
               id: 'a',
-              texto: 'Picking.',
+              texto: '<em>Picking</em>.',
               esCorrecta: true,
             },
             {

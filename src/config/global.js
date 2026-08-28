@@ -42,7 +42,7 @@ export default {
         subMenu: [
           {
             numero: '1.1',
-            titulo: 'Concepto logístico del <em>e-commerce</em>',
+            titulo: 'Concepto',
             hash: 't_1_1',
           },
           {
@@ -410,7 +410,7 @@ export default {
       link: '',
     },
     {
-      referencia: 'Ortega, L. (2015). E-commerce y pago seguro.',
+      referencia: 'Ortega, L. (2015). <em>E-commerce y pago seguro.</em>',
       link: '',
     },
   ],
@@ -476,12 +476,12 @@ export default {
       autores: [
         {
           nombre: 'Luz Karime Amaya Cabra',
-          cargo: 'Evaluador de contenidos inclusivos y accesibles',
+          cargo: 'Evaluadora de contenidos inclusivos y accesibles',
           centro: 'Centro de Comercio y Servicios - Regional Atlántico',
         },
         {
           nombre: 'Laura Daniela Burgos Rueda',
-          cargo: 'Evaluador de contenidos inclusivos y accesibles',
+          cargo: 'Evaluadora de contenidos inclusivos y accesibles',
           centro: 'Centro de Comercio y Servicios - Regional Atlántico',
         },
         {
@@ -491,7 +491,7 @@ export default {
         },
         {
           nombre: 'Karine Isabel Ospino Fritz',
-          cargo: 'Validador y vinculador de recursos educativos digitales',
+          cargo: 'Validadora y vinculadora de recursos educativos digitales',
           centro: 'Centro de Comercio y Servicios - Regional Atlántico',
         },
       ],

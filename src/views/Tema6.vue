@@ -12,7 +12,7 @@
     .row.justify-content-center.z-2
       .col-lg-10.p-3.p-lg-4.drop-shadow(data-aos="fade-down")
         div.banner-text.banner-text--secundario
-          p.mb-0 El soporte tecnológico y el cumplimiento normativo permiten fortalecer el control, seguridad y continuidad de las operaciones logísticas en entornos de e-commerce. Las organizaciones requieren herramientas digitales que faciliten seguimiento de pedidos, gestión documental y administración de información logística.
+          p.mb-0 El soporte tecnológico y el cumplimiento normativo permiten fortalecer el control, seguridad y continuidad de las operaciones logísticas en entornos de #[em e-commerce]. Las organizaciones requieren herramientas digitales que faciliten seguimiento de pedidos, gestión documental y administración de información logística.
 
     .row.justify-content-center.align-items-center
       .col-sm-8.col-lg-4
@@ -61,6 +61,8 @@
     #t_6_2.titulo-segundo.color-acento-contenido(data-aos="flip-up")
       h2 6.2 Gestión documental y control de procesos
 
+    p.mb-4.mb-lg-5 La gestión documental comprende las actividades orientadas a registrar, organizar, conservar y controlar la información generada durante las operaciones logísticas, garantizando la disponibilidad de documentos confiables y el seguimiento permanente de los procedimientos para asegurar el cumplimiento de los objetivos organizacionales. 
+
     .titulo-sexto.color-acento-contenido.mb-4
       h5 Tabla 5.
       span Aspectos fundamentales de la gestión documental y el control de procesos
@@ -81,6 +83,23 @@
             td #[strong Organización de la información]
             td(colspan="2") Clasifica y almacena los documentos para facilitar su consulta, actualización y conservación.
             td(colspan="2") Organizar las órdenes de despacho por fecha y número de pedido en una plataforma digital.
+          tr
+            td #[strong Control de procesos]
+            td(colspan="2") Supervisa el cumplimiento de los procedimientos establecidos para mantener la calidad y la eficiencia operativa.
+            td(colspan="2") Verificar que cada pedido cumpla las etapas de alistamiento antes del despacho.
+          tr(style="background-color: #F6F6F6")
+            td #[strong Trazabilidad documental]
+            td(colspan="2") Permite consultar el historial de los documentos y las actividades realizadas durante el proceso logístico.
+            td(colspan="2") Revisar el recorrido de una orden desde su creación hasta la entrega al cliente.
+          tr
+            td #[strong Seguimiento mediante indicadores]
+            td(colspan="2") Evalúa el desempeño de los procesos utilizando métricas que apoyan la toma de decisiones.
+            td(colspan="2") Medir el porcentaje de pedidos despachados dentro del tiempo programado.
+          tr(style="background-color: #F6F6F6")
+            td #[strong Mejora continua]
+            td(colspan="2") Analiza los resultados obtenidos para implementar acciones que optimicen los procesos logísticos.
+            td(colspan="2") Ajustar el procedimiento de alistamiento tras identificar retrasos recurrentes en los despachos.
+
 
     .bg-secundario-s5.p-4.py-3.rounded-4
       p.mb-0.text-center El control de procesos permite supervisar cumplimiento de actividades logísticas y detectar fallas operativas. Las organizaciones implementan sistemas digitales para garantizar disponibilidad y seguridad de la información.
@@ -95,7 +114,7 @@
         figure
           img.mb-4.mb-lg-0(src="@/assets/curso/tema6/5.png", alt="" data-aos="zoom-in-down")
       .col-lg-8
-        p La seguridad de la información corresponde al conjunto de medidas utilizadas para proteger datos comerciales, financieros y logísticos frente a pérdidas, accesos no autorizados o ataques informáticos. Las empresas de e-commerce manejan información relacionada con clientes, pagos y operaciones logísticas, por lo que deben implementar controles de acceso, copias de seguridad y mecanismos de protección digital.
+        p La seguridad de la información corresponde al conjunto de medidas utilizadas para proteger datos comerciales, financieros y logísticos frente a pérdidas, accesos no autorizados o ataques informáticos. Las empresas de #[em e-commerce] manejan información relacionada con clientes, pagos y operaciones logísticas, por lo que deben implementar controles de acceso, copias de seguridad y mecanismos de protección digital.
         .bg-secundario-s5.p-4.py-3.rounded-4
           p.mb-0 El fortalecimiento de la seguridad informática permite reducir riesgos y garantizar confiabilidad en las operaciones comerciales. Empresas como Servientrega, Amazon, Shopify, implementan políticas de seguridad de la información para la protección de los datos de sus clientes.    
 
@@ -112,29 +131,42 @@
         p.mb-0 Las operaciones logísticas deben cumplir normativas relacionadas con comercio electrónico, protección de datos, transporte y seguridad de la información. El cumplimiento normativo garantiza transparencia y legalidad en las actividades empresariales. Las organizaciones deben aplicar procedimientos de control y actualización frente a cambios regulatorios para evitar sanciones y afectaciones operativas.
 
     .row.justify-content-center.align-items-stretch.mb-4.mb-lg-5
-      .col-lg-3.mb-4.mb-lg-0
+      .col-sm-6.col-lg-5.col-xl-3.mb-4.mb-xl-0
         .tarjeta.bg-terciario-t5.p-4.rounded-4.h-100
           img.imgw-46.mb-4(src="@/assets/curso/tema6/7.svg", alt="")
           h4.mb-4.text-center Normatividad legal
-          p.mb-0.text-center Cumplir leyes y normas aplicables para operar de forma legal, segura y responsable.
-      .col-lg-3.mb-4.mb-lg-0
+          p.mb-0 Cumplir leyes y normas aplicables para operar de forma legal, segura y responsable.
+      .col-sm-6.col-lg-5.col-xl-3.mb-4.mb-xl-0
         .tarjeta.bg-terciario-t5.p-4.rounded-4.h-100
           img.imgw-46.mb-4(src="@/assets/curso/tema6/8.svg", alt="")
           h4.mb-4.text-center Gestión documental
-          p.mb-0.text-center Organizar, registrar y conservar documentos claves para garantizar trazabilidad y respaldo de las operaciones.
-      .col-lg-3.mb-4.mb-lg-0
+          p Organizar, registrar y conservar documentos claves para garantizar trazabilidad y respaldo de las operaciones.
+          ul.lista-ul.mb-0
+            li.mb-0
+              i.lista-ul__vineta
+              | Órdenes de compra.
+            li.mb-0
+              i.lista-ul__vineta
+              | Facturas.
+            li.mb-0
+              i.lista-ul__vineta
+              | Guías de transporte.
+            li.mb-0
+              i.lista-ul__vineta
+              | Registros de distribución.
+      .col-sm-6.col-lg-5.col-xl-3.mb-4.mb-xl-0
         .tarjeta.bg-terciario-t5.p-4.rounded-4.h-100
           img.imgw-46.mb-4(src="@/assets/curso/tema6/9.svg", alt="")
           h4.mb-4.text-center Control de procesos
-          p.mb-0.text-center Supervisar cada etapa logística para asegurar calidad, eficiencia y cumplimiento de los procedimientos.
-      .col-lg-3.mb-4.mb-lg-0
+          p.mb-0 Supervisar cada etapa logística para asegurar calidad, eficiencia y cumplimiento de los procedimientos.
+      .col-sm-6.col-lg-5.col-xl-3.mb-4.mb-xl-0
         .tarjeta.bg-terciario-t5.p-4.rounded-4.h-100
           img.imgw-46.mb-4(src="@/assets/curso/tema6/10.svg", alt="")
           h4.mb-4.text-center Seguridad de la información
-          p.mb-0.text-center Proteger datos comerciales, financieros y logísticos contra pérdidas, accesos no autorizados o ataques informáticos.
+          p.mb-0 Proteger los datos y pedidos frente a accesos no autorizados, garantizando confidencialidad e integridad.
 
     .bg-primario-p10.p-4.py-3.rounded-4.mb-4.mb-lg-5
-      p.mb-0.text-center El cumplimiento de la normativa fortalece la confianza del consumidor y mejora la sostenibilidad de las operaciones de e-commerce.
+      p.mb-0.text-center El cumplimiento de la normativa fortalece la confianza del consumidor y mejora la sostenibilidad de las operaciones de #[em e-commerce].
 
     .row.justify-content-center.align-items-center.mb-4.mb-lg-5
       .col-sm-8.col-lg-4
@@ -148,7 +180,7 @@
             .col
               .row.justify-content-between.align-items-center
                 .col.mb-3.mb-sm-0
-                  h4.text-white Tecnologías para operaciones logísticas e.commerce
+                  h4.text-white Tecnologías para operaciones logísticas #[em e-commerce]
                   p.mb-0.text-white A continuación, se invita al siguiente video para fortalecer los conocimientos relacionados con soporte tecnológico y cumplimiento normativo:
 
                 .col-sm-auto.d-flex.gap-2.flex-column

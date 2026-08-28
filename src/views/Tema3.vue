@@ -12,7 +12,7 @@
         figure
           img.mb-4.mb-lg-0(src="@/assets/curso/tema3/1.png", alt="" data-aos="zoom-in-down")
       .col-lg-7
-        p La gestión de carga y preparación de pedidos comprende los procesos relacionados con clasificación, acondicionamiento, manipulación y despacho de mercancías dentro de operaciones de e-commerce. Estas actividades permiten garantizar organización, protección de productos y cumplimiento en las entregas.
+        p La gestión de carga y preparación de pedidos comprende los procesos relacionados con clasificación, acondicionamiento, manipulación y despacho de mercancías dentro de operaciones de #[em e-commerce]. Estas actividades permiten garantizar organización, protección de productos y cumplimiento en las entregas.
         .bg-terciario-t5.p-4.py-3.rounded-4
           p.mb-0 En las operaciones logísticas actuales, las empresas deben optimizar tiempos de preparación, reducir errores y asegurar trazabilidad durante el proceso de distribución. Una gestión inadecuada puede generar devoluciones, pérdidas económicas y afectaciones en la experiencia del cliente.
 
@@ -212,9 +212,6 @@
             td(colspan="2") Nombre del producto, referencia, código de barras, lote, peso, dimensiones, dirección de entrega, datos del remitente y destinatario. 
             td(colspan="2") Una etiqueta adherida al paquete incluye el código de barras, la guía de transporte, la dirección del cliente y el número de seguimiento. 
 
-    .bg-secundario-s10.p-4.py-3.rounded-4
-      p.mb-0.text-center El análisis permanente de la operación logística fortalece la eficiencia y continuidad de los procesos empresariales.
-
     separador
     #t_3_4.titulo-segundo.color-acento-contenido(data-aos="flip-up")
       h2 3.4 Cubicaje, #[em picking], #[em packaging] y #[em dropshipping]  
@@ -224,7 +221,7 @@
         figure
           img.mb-4.mb-lg-0(src="@/assets/curso/tema3/27.svg", alt="" data-aos="zoom-in-down")
       .col-lg-11
-        p.mb-0 Las operaciones logísticas en el comercio electrónico requieren procesos que optimicen el uso de los recursos, agilicen la preparación de los pedidos y respondan a las expectativas del cliente. En este contexto, el cubicaje, el picking, el packaging y el dropshipping desempeñan un papel fundamental, ya que contribuyen a mejorar el almacenamiento, la gestión de inventarios, la preparación de los envíos y la coordinación entre los diferentes actores de la cadena de suministro.
+        p.mb-0 Las operaciones logísticas en el comercio electrónico requieren procesos que optimicen el uso de los recursos, agilicen la preparación de los pedidos y respondan a las expectativas del cliente. En este contexto, el cubicaje, el <em>picking</em>, el <em>packaging</em> y el <em>dropshipping</em> desempeñan un papel fundamental, ya que contribuyen a mejorar el almacenamiento, la gestión de inventarios, la preparación de los envíos y la coordinación entre los diferentes actores de la cadena de suministro.
 
     .row.justify-content-center
       .col-xl-10
@@ -250,8 +247,8 @@
         .titulo-sexto.color-acento-contenido.mb-4
           h5 Figura 2.
           span Proceso de #[em picking]
-        img.mb-2.d-sm-none(data-aos="fade-up", src="@/assets/curso/tema3/21-mob.png", alt="Proceso de picking")
-        img.mb-2.d-none.d-sm-block(data-aos="fade-up", src="@/assets/curso/tema3/21.png", alt="Proceso de picking")
+        img.mb-2.d-sm-none(data-aos="fade-up", src="@/assets/curso/tema3/21-mob.png", alt="La figura muestra el proceso de picking como una operación logística orientada a preparar pedidos mediante la localización, selección y verificación de los productos almacenados. Representa de forma secuencial cómo el operario parte de la información registrada en el sistema, identifica las mercancías requeridas y comprueba sus referencias y cantidades antes de trasladarlas al área de empaque, asegurando que el pedido sea preparado correctamente para continuar con el proceso de despacho.")
+        img.mb-2.d-none.d-sm-block(data-aos="fade-up", src="@/assets/curso/tema3/21.png", alt="La figura muestra el proceso de picking como una operación logística orientada a preparar pedidos mediante la localización, selección y verificación de los productos almacenados. Representa de forma secuencial cómo el operario parte de la información registrada en el sistema, identifica las mercancías requeridas y comprueba sus referencias y cantidades antes de trasladarlas al área de empaque, asegurando que el pedido sea preparado correctamente para continuar con el proceso de despacho.")
         figcaption Nota. SENA, (2026).
 
     .row.justify-content-center

@@ -11,7 +11,7 @@
     .row.justify-content-center.z-2
       .col-lg-10.p-3.p-lg-4.drop-shadow(data-aos="fade-down")
         div.banner-text.banner-text--secundario
-          p.mb-0 La logística inversa y la bioseguridad forman parte de los procesos de control y sostenibilidad en operaciones de e-commerce. Estas actividades permiten gestionar devoluciones, garantizar condiciones seguras de manipulación y fortalecer la continuidad operativa dentro de la cadena logística.
+          p.mb-0 La logística inversa y la bioseguridad forman parte de los procesos de control y sostenibilidad en operaciones de #[em e-commerce]. Estas actividades permiten gestionar devoluciones, garantizar condiciones seguras de manipulación y fortalecer la continuidad operativa dentro de la cadena logística.
     
     .row.justify-content-center.align-items-center
       .col-sm-8.col-lg-4
@@ -139,7 +139,7 @@
 
     .titulo-sexto.color-acento-contenido.mb-4
       h5 Tabla 4.
-      span Aspectos fundamentales de la gestión documental y el control de procesos
+      span Las normativas y políticas aplicables a la logística inversa 
     .tabla-b.color-acento-contenido.tabla-a--text-left
       table
         caption Nota. SENA, (2026).
@@ -191,7 +191,6 @@
       .py-4.py-md-5(titulo="Elementos de protección personal (EPP)" :icono="require_src('@/assets/curso/tema5/16.svg')")
         .row.justify-content-center.align-items-center.px-4.px-lg-0
           .col-lg-7.col-xl-6
-            h4 Elementos de protección personal (EPP)
             p El uso de guantes, gafas, mascarillas, casco y calzado de seguridad protege al personal frente a riesgos físicos, químicos o biológicos. 
             p.mb-4.mb-lg-0 Ejemplo: utilizar guantes y gafas durante la inspección de productos devueltos con daños visibles.
           .col-sm-8.col-lg-4
@@ -200,7 +199,6 @@
       .py-4.py-md-5(titulo="Limpieza de superficies" :icono="require_src('@/assets/curso/tema5/16.svg')")
         .row.justify-content-center.align-items-center.px-4.px-lg-0
           .col-lg-7.col-xl-6
-            h4 Limpieza de superficies
             p La limpieza y desinfección periódica de mesas, equipos, herramientas y áreas de trabajo reducen la contaminación y mantienen condiciones seguras. 
             p.mb-4.mb-lg-0 Ejemplo: desinfectar la zona de inspección al finalizar cada jornada o después de manipular productos contaminados.
           .col-sm-8.col-lg-4
@@ -209,7 +207,6 @@
       .py-4.py-md-5(titulo="Manipulación segura de mercancías" :icono="require_src('@/assets/curso/tema5/16.svg')")
         .row.justify-content-center.align-items-center.px-4.px-lg-0
           .col-lg-7.col-xl-6
-            h4 Manipulación segura de mercancías
             p La aplicación de técnicas adecuadas de levantamiento, movilización y almacenamiento disminuye accidentes y evita daños en los productos. 
             p.mb-4.mb-lg-0 Ejemplo: trasladar una carga pesada con una transpaleta en lugar de hacerlo manualmente.
           .col-sm-8.col-lg-4
@@ -218,7 +215,6 @@
       .py-4.py-md-5(titulo="Control sanitario en transporte y almacenamiento" :icono="require_src('@/assets/curso/tema5/16.svg')")
         .row.justify-content-center.align-items-center.px-4.px-lg-0
           .col-lg-7.col-xl-6
-            h4 Control sanitario en transporte y almacenamiento
             p La verificación de las condiciones de higiene, temperatura, ventilación y conservación protege la calidad de los productos durante su movilización y permanencia en bodega. 
             p.mb-4.mb-lg-0 Ejemplo: mantener medicamentos o alimentos retornados en áreas con temperatura controlada hasta definir su destino.
           .col-sm-8.col-lg-4

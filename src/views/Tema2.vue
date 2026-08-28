@@ -7,14 +7,24 @@
         span 2
       h1 Logística de distribución y almacenamiento
 
-    .row.justify-content-center.align-items-center
+    .row.justify-content-center.align-items-center.mb-4.mb-lg-5
       .col-sm-10.col-lg-5
         figure
           img.mb-4.mb-lg-0(src="@/assets/curso/tema2/1.png", alt="" data-aos="zoom-in-down")
       .col-lg-7
-        p Desde el sector productivo, uno de los principales problemas se relaciona con la falta de integración entre procesos comerciales y logísticos. Muchas organizaciones implementan plataformas digitales de venta sin fortalecer sus capacidades de almacenamiento, trazabilidad y distribución, generando incumplimientos en tiempos de entrega, devoluciones y pérdida de confianza por parte del consumidor.
+        p La logística de distribución y almacenamiento comprende las actividades relacionadas con movilización, organización y entrega de productos dentro de operaciones de e-commerce. Estos procesos permiten garantizar disponibilidad de mercancías, cumplimiento en tiempos de entrega y continuidad en la cadena de suministro.
         .bg-terciario-t5.p-4.py-3.rounded-4
-          p.mb-0 Por lo anterior, el presente componente formativo desarrolla fundamentos técnicos y aplicados para la planeación logística en entornos de e-commerce, permitiendo al aprendiz analizar, estructurar y evaluar operaciones logísticas alineadas con requerimientos empresariales y condiciones reales del mercado.
+          p.mb-0 Por lo anterior, el presente componente formativo desarrolla fundamentos técnicos y aplicados para la planeación logística en entornos de #[em e-commerce], permitiendo al aprendiz analizar, estructurar y evaluar operaciones logísticas alineadas con requerimientos empresariales y condiciones reales del mercado.
+
+    .row.justify-content-center
+      .col-lg-10.col-xl-8
+        .bg-azul.p-4.py-3.rounded-4.mb-3
+          .row.justify-content-center.align-items-center
+            .col-lg-8
+              p.mb-4.mb-lg-0 #[strong Ejemplo:] empresas como Mercado Libre han implementado centros de distribución, alianzas con operadores logísticos y sistemas automatizados para optimizar tiempos de despacho y mejorar la experiencia del cliente.
+            .col-lg-4
+              figure
+                img.imgw-130(data-aos="fade-down-right", src="@/assets/curso/tema2/11.png", alt="")
 
     separador
     #t_2_1.titulo-segundo.color-acento-contenido(data-aos="flip-up")
@@ -104,7 +114,7 @@
         figure
           img(data-aos="fade-down-right", src="@/assets/curso/tema2/4.png", alt="")
     
-    p La última milla comprende la fase final de la distribución; donde se procede a trasladar los productos desde el centro de distribución hasta el cliente final, garantizando entregas oportunas, seguras y acordes con los compromisos establecidos. Es una de las etapas más críticas del e-commerce, debido a que impacta directamente la percepción del cliente frente al servicio. 
+    p La última milla comprende la fase final de la distribución; donde se procede a trasladar los productos desde el centro de distribución hasta el cliente final, garantizando entregas oportunas, seguras y acordes con los compromisos establecidos. Es una de las etapas más críticas del #[em e-commerce], debido a que impacta directamente la percepción del cliente frente al servicio. 
     p.mb-4 Entre los aspectos más importantes tenemos:
 
     .p-4.p-xl-5.bg-slider.mb-5
@@ -177,7 +187,7 @@
     .row.justify-content-center.z-2
       .col-lg-10.p-3.p-lg-4.drop-shadow(data-aos="fade-down")
         div.banner-text.banner-text--terciario
-          p.mb-0 Los operadores logísticos desempeñan un papel fundamental en la cadena de suministro; dado que se especializan en almacenamiento, transporte, distribución y control de mercancías; contribuyendo al flujo eficiente de mercancías e información. Estas organizaciones apoyan a las empresas de e-commerce en la gestión de procesos logísticos y cumplimiento de entregas, mediante soluciones adaptadas a las necesidades de cada operación. Existen operadores especializados en transporte urbano, carga nacional, distribución internacional y logística de última milla. La selección del operador depende del tipo de producto, cobertura y requerimientos del servicio.
+          p.mb-0 Los operadores logísticos desempeñan un papel fundamental en la cadena de suministro; dado que se especializan en almacenamiento, transporte, distribución y control de mercancías; contribuyendo al flujo eficiente de mercancías e información. Estas organizaciones apoyan a las empresas de #[em e-commerce] en la gestión de procesos logísticos y cumplimiento de entregas, mediante soluciones adaptadas a las necesidades de cada operación. Existen operadores especializados en transporte urbano, carga nacional, distribución internacional y logística de última milla. La selección del operador depende del tipo de producto, cobertura y requerimientos del servicio.
 
     .bg-secundario-s20.p-4.py-3.rounded-4.mb-3
       p.mb-0.text-center A continuación, se muestra como es el proceso a nivel general de un operador logístico: 
@@ -294,7 +304,7 @@
       .col-lg-8
         p Lo tiempos de entrega corresponden al período comprendido entre la confirmación de un pedido y su recepción por parte del cliente. Su cumplimiento depende de la adecuada coordinación entre el almacenamiento, la disponibilidad de inventario, el alistamiento, el transporte, la distribución, el seguimiento del envío y la gestión oportuna de las novedades que puedan presentarse durante la operación logística.
         .bg-terciario-t5.p-4.py-3.rounded-4
-          p.mb-0 los principales aspectos que influyen en su cumplimiento dentro de las operaciones logísticas y el e-commerce, son los siguientes:
+          p.mb-0 los principales aspectos que influyen en su cumplimiento dentro de las operaciones logísticas y el #[em e-commerce], son los siguientes:
 
     .row.justify-content-center.align-items-stretch.mb-5
       .col-lg-4.col-xl-3.mb-3
@@ -339,7 +349,7 @@
           p.mb-0.text-center Informar el estado del pedido y las fechas estimadas de entrega fortalece la confianza del cliente y mejora su experiencia durante la compra.
 
     .bg-secundario-s20.p-4.py-3.rounded-4.mb-5
-      p.mb-0 Los tiempos de entrega representan uno de los principales indicadores de desempeño logístico en e-commerce. Las organizaciones deben establecer estrategias de almacenamiento y distribución que permitan responder oportunamente a la demanda.
+      p.mb-0 Los tiempos de entrega representan uno de los principales indicadores de desempeño logístico en #[em e-commerce]. Las organizaciones deben establecer estrategias de almacenamiento y distribución que permitan responder oportunamente a la demanda.
 
     .row.justify-content-center.mb-4.mb-lg-5
       .col-lg-10.col-xl-8

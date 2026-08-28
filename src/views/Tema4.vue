@@ -11,7 +11,7 @@
     .row.justify-content-center.z-2
       .col-lg-10.p-3.p-lg-4.drop-shadow(data-aos="fade-down")
         div.banner-text.banner-text--secundario
-          p.mb-0 La planeación y control logístico comprende los procesos orientados a organizar, supervisar y optimizar operaciones de distribución, almacenamiento y transporte en entornos de e-commerce. Estas actividades permiten mejorar el uso de recursos, reducir costos y garantizar cumplimiento en las entregas.
+          p.mb-0 La planeación y control logístico comprende los procesos orientados a organizar, supervisar y optimizar operaciones de distribución, almacenamiento y transporte en entornos de #[em e-commerce]. Estas actividades permiten mejorar el uso de recursos, reducir costos y garantizar cumplimiento en las entregas.
 
     .bg-primario-p5.p-4.py-3.rounded-4.mb-3
       .row.justify-content-center.align-items-center
@@ -44,30 +44,38 @@
             th(colspan="2") Ejemplo de aplicación
         tbody
           tr
-            td #[strong Política de devoluciones]
-            td(colspan="2") Establece los plazos, condiciones, documentos y canales autorizados para solicitar el retorno de un producto adquirido.
-            td(colspan="2") La empresa acepta devoluciones dentro de los 30 días siguientes a la entrega, siempre que el producto conserve sus accesorios y empaque.
+            td #[strong Lista de chequeo]
+            td(colspan="2") Permite verificar de manera sistemática el cumplimiento de requisitos, procedimientos o condiciones previamente establecidas, facilitando la identificación de incumplimientos y oportunidades de mejora. 
+            td(colspan="2") Revisar el estado de los vehículos antes de iniciar una ruta de distribución. 
           tr(style="background-color: #F6F6F6")
-            td #[strong Política de garantías]
-            td(colspan="2") Define el procedimiento para reparar, cambiar o reembolsar productos que presenten fallas de fabricación o incumplan las condiciones ofrecidas.
-            td(colspan="2") Un electrodoméstico defectuoso es revisado por el servicio técnico y, cuando la falla no puede corregirse, es reemplazado por otro.
+            td #[strong Encuesta]
+            td(colspan="2") Recopila información mediante preguntas estructuradas para conocer la percepción de clientes, colaboradores o proveedores sobre el desempeño de los procesos logísticos. 
+            td(colspan="2") Evaluar la satisfacción de los clientes con los tiempos de entrega. 
           tr
-            td #[strong Política de protección al consumidor]
-            td(colspan="2") Garantiza información clara, atención oportuna y respeto por los derechos del comprador durante los procesos de reclamación, cambio o devolución. 
-            td(colspan="2") La tienda virtual informa antes de la compra las condiciones de retracto, los costos asociados y el procedimiento para presentar una solicitud. 
+            td #[strong Entrevista]
+            td(colspan="2") Obtiene información detallada a través del diálogo con las personas involucradas en la operación, permitiendo comprender situaciones, necesidades y oportunidades de mejora. 
+            td(colspan="2") Entrevistar al jefe de bodega para identificar dificultades en el control de inventarios. 
           tr(style="background-color: #F6F6F6")
-            td #[strong Política de protección de datos]
-            td(colspan="2") Regula la recopilación, consulta, almacenamiento y uso de la información personal suministrada durante la gestión de devoluciones y garantías. 
-            td(colspan="2") Los datos del cliente y la información bancaria del reembolso únicamente pueden consultarse por personal autorizado. 
+            td #[strong Observación directa]
+            td(colspan="2") Analiza el desarrollo de las actividades en el lugar donde ocurren, permitiendo identificar prácticas, tiempos, condiciones y posibles desviaciones durante la operación logística. 
+            td(colspan="2") Observar el proceso de alistamiento de pedidos en un centro de distribución. 
           tr
-            td #[strong Política ambiental]
-            td(colspan="2") Orienta la reutilización, el reciclaje y la disposición responsable de productos, empaques y materiales que retornan a la organización. 
-            td(colspan="2") Las baterías y los equipos electrónicos devueltos son entregados a un gestor autorizado para su tratamiento ambiental. 
+            td #[strong Diagrama de flujo]
+            td(colspan="2") Representa gráficamente la secuencia de actividades de un proceso, facilitando la identificación de retrasos, duplicidades y puntos críticos de la operación. 
+            td(colspan="2") Analizar el flujo logístico desde la recepción de la mercancía hasta su despacho. 
           tr(style="background-color: #F6F6F6")
-            td #[strong Política de procedimientos internos]
-            td(colspan="2") Determina las responsabilidades, actividades, registros y controles que deben aplicar las áreas involucradas en la logística inversa. 
-            td(colspan="2") El área de servicio registra la solicitud, la bodega inspecciona el producto y contabilidad procesa el reembolso aprobado. 
-
+            td #[strong Matriz DOFA]
+            td(colspan="2") Evalúa factores internos y externos para identificar fortalezas, debilidades, oportunidades y amenazas que afectan el desempeño logístico de la organización. 
+            td(colspan="2") Analizar la capacidad logística de una empresa frente al crecimiento del comercio electrónico. 
+          tr
+            td #[strong Indicadores logísticos (KPI)] 
+            td(colspan="2") Miden el desempeño de las operaciones mediante datos cuantificables que apoyan el seguimiento, el control y la mejora continua de los procesos. 
+            td(colspan="2") Medir el porcentaje de entregas realizadas dentro del tiempo establecido. 
+          tr(style="background-color: #F6F6F6")
+            td #[strong Análisis de causa raíz] 
+            td(colspan="2") Identifica el origen de un problema mediante herramientas de análisis, facilitando la implementación de acciones correctivas que eviten su recurrencia. 
+            td(colspan="2") Determinar las causas de los retrasos recurrentes en la preparación de pedidos. 
+          
     .bg-secundario-s10.p-4.py-3.rounded-4
       p.mb-0.text-center El análisis permanente de la operación logística fortalece la eficiencia y continuidad de los procesos empresariales.
 
@@ -85,29 +93,29 @@
     .row.justify-content-center.align-items-center.mb-4.mb-lg-5.z-2
       .col-lg-6
         LineaTiempoD.color-primario.mb-4.mb-lg-0
-          div(numero="1" titulo="Políticas de devolución")
-            p Establecen las condiciones, plazos y requisitos para aceptar el retorno de los productos, garantizando transparencia durante el proceso. 
-            p.mb-0 Ejemplo: permitir devoluciones dentro de los 30 días posteriores a la compra.
-          div(numero="2" titulo="Recolección del producto")
-            p Organiza el retiro de la mercancía desde la ubicación del cliente hasta el centro logístico o punto autorizado.
-            p.mb-0 Ejemplo: un transportista recoge un producto defectuoso en el domicilio del comprador.
-          div(numero="3" titulo="Inspección y clasificación")
-            p Evalúa el estado del producto para definir si puede reutilizarse, repararse, cambiarse, reciclarse o desecharse. 
-            p.mb-0 Ejemplo: clasificar una prenda como apta para cambio o liquidación.
-          div(numero="4" titulo="Recuperación del valor")
-            p Aprovecha los productos retornados mediante reparación, reacondicionamiento o reutilización, reduciendo pérdidas económicas.
-            p.mb-0 Ejemplo: reemplazar un accesorio dañado y comercializar nuevamente el producto.
-          div(numero="5" titulo="Gestión de la información")
-            p Registra y controla cada etapa del proceso para garantizar trazabilidad y facilitar la toma de decisiones. 
-            p.mb-0 Ejemplo: consultar el estado de una devolución desde el sistema logístico.
-          div(numero="6" titulo="Disposición final")
-            p Gestiona responsablemente los productos que no pueden recuperarse, priorizando el reciclaje o la eliminación conforme a la normativa vigente. 
-            p.mb-0 Ejemplo: enviar baterías usadas a un gestor autorizado de residuos.
+          div(numero="1" titulo="Análisis de la demanda ")
+            p Permite estimar el comportamiento de las ventas para planificar inventarios, recursos y capacidad operativa.  
+            p.mb-0 #[strong Ejemplo:] incrementar existencias antes de una campaña de descuentos. 
+          div(numero="2" titulo="Gestión de inventarios")
+            p Garantiza la disponibilidad de los productos mediante un control adecuado de las existencias, evitando faltantes o sobre inventarios.  
+            p.mb-0 #[strong Ejemplo:] mantener el #[em stock] suficiente para atender pedidos diarios. 
+          div(numero="3" titulo="Planificación del almacenamiento")
+            p Organiza espacios, equipos y posiciones para facilitar el flujo de mercancías y optimizar la capacidad disponible.  
+            p.mb-0 #[strong Ejemplo:] ubicar productos de alta rotación cerca de las zonas de despacho. 
+          div(numero="4" titulo="Programación del transporte")
+            p Coordina rutas, vehículos y horarios para cumplir los tiempos de entrega y optimizar los costos logísticos.  
+            p.mb-0 #[strong Ejemplo:] consolidar pedidos de una misma ciudad en un solo recorrido. 
+          div(numero="5" titulo="Asignación de recursos")
+            p Distribuye adecuadamente el personal, los equipos y la tecnología según las necesidades operativas.  
+            p.mb-0 #[strong Ejemplo:] aumentar el número de operarios durante temporadas de alta demanda. 
+          div(numero="6" titulo="Seguimiento del desempeño ")
+            p Evalúa los resultados mediante indicadores logísticos para identificar oportunidades de mejora y fortalecer la operación.  
+            p.mb-0 #[strong Ejemplo:] medir el porcentaje de entregas realizadas dentro del tiempo previsto. 
       .col-lg-6
         figure
           img(data-aos="fade-down-right", src="@/assets/curso/tema4/5.png", alt="")
 
-    p.mb-4.mb-lg-5 Una adecuada planeación permite optimizar costos operativos y mejorar la capacidad de respuesta frente a la demanda del mercado. Las organizaciones deben proyectar escenarios de crecimiento, comportamiento del consumidor y necesidades logísticas para mantener competitividad en operaciones de e-commerce.
+    p.mb-4.mb-lg-5 Una adecuada planeación permite optimizar costos operativos y mejorar la capacidad de respuesta frente a la demanda del mercado. Las organizaciones deben proyectar escenarios de crecimiento, comportamiento del consumidor y necesidades logísticas para mantener competitividad en operaciones de #[em e-commerce].
 
     .row.justify-content-center
       .col-lg-10.col-xl-8
@@ -123,7 +131,7 @@
     #t_4_3.titulo-segundo.color-acento-contenido(data-aos="flip-up")
       h2 4.3 Indicadores KPI
 
-    p.mb-4.mb-lg-5 Los indicadores Key Performance Indicator (KPI) corresponden a métricas utilizadas para evaluar desempeño y cumplimiento de objetivos logísticos. Estos indicadores permiten medir productividad, eficiencia y calidad del servicio. Entre los KPI más utilizados en logística se encuentran:
+    p.mb-4.mb-lg-5 Los indicadores #[em Key Performance Indicator] (KPI) corresponden a métricas utilizadas para evaluar desempeño y cumplimiento de objetivos logísticos. Estos indicadores permiten medir productividad, eficiencia y calidad del servicio. Entre los KPI más utilizados en logística se encuentran:
 
     .row.justify-content-center.align-items-center.mb-4.mb-lg-5
       .col-sm-8.col-lg-4
@@ -316,7 +324,7 @@
               .row.justify-content-between.align-items-center
                 .col.mb-3.mb-sm-0
                   h4.text-white Libro blanco de logística para comercio electrónico
-                  p.mb-0.text-white Se invita al aprendiz a profundizar en logística inversa y bioseguridad, a través del siguiente libro (página 98-109):
+                  p.mb-0.text-white Se invita al aprendiz a profundizar en planeación y control logístico, tal como se muestra en el siguiente libro (página 25-79).
 
                 .col-sm-auto.d-flex.gap-2.flex-column
                   a.boton.color-acento-botones.d-block(href="https://www.fesc.edu.co/portal/archivos/e_libros/logistica/ind_logistica.pdf" type="application/pdf" target="_blank" no-referrer)
@@ -332,7 +340,8 @@
               p.text-white A continuación, se invita a ir al siguiente pódcast: 
               TarjetaAudio.color-acento-contenido.mb-3(
                 texto="“Control logístico en el e-commerce: eficiencia, trazabilidad y KPI.”"
-                :audio="require_src('@/assets/curso/actividad/audio/fail.mp3')"
+                tiempo
+                :audio="require_src('@/assets/curso/audio/podcast-2.mp3')"
                 @audio-hover="mostrarIndicadorTarjetaAudio = false"
               )
 

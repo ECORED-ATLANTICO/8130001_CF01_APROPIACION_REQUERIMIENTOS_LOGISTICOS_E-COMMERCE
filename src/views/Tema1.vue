@@ -12,7 +12,7 @@
     .row.justify-content-center.z-2
       .col-lg-10.p-3.p-lg-4.drop-shadow(data-aos="fade-down")
         div.banner-text
-          p.mb-0 Las operaciones de e-commerce han transformado la gestión comercial y logística de las organizaciones. Actualmente, las empresas requieren integrar procesos de distribución, almacenamiento y control de pedidos para responder a las exigencias del consumidor digital. En este contexto, la logística se convierte en un elemento estratégico para garantizar eficiencia operativa y competitividad empresarial.  
+          p.mb-0 Las operaciones de <em>e-commerce</em> han transformado la gestión comercial y logística de las organizaciones. Actualmente, las empresas requieren integrar procesos de distribución, almacenamiento y control de pedidos para responder a las exigencias del consumidor digital. En este contexto, la logística se convierte en un elemento estratégico para garantizar eficiencia operativa y competitividad empresarial.  
     
     separador
     
@@ -24,7 +24,7 @@
         :style="{'background-image': `url(${require_src('@/assets/curso/tema1/2.png')})`}"
       )
       .bloque-texto-g__texto.p-4
-        p.mb-3.d-block El e-commerce corresponde a las actividades de compra y venta de productos o servicios mediante plataformas digitales. Desde el enfoque logístico, integra procesos de almacenamiento, preparación de pedidos, distribución y trazabilidad para garantizar cumplimiento en las entregas y satisfacción del cliente.
+        p.mb-3.d-block El <em>e-commerce</em> corresponde a las actividades de compra y venta de productos o servicios mediante plataformas digitales. Desde el enfoque logístico, integra procesos de almacenamiento, preparación de pedidos, distribución y trazabilidad para garantizar cumplimiento en las entregas y satisfacción del cliente.
         p.mb-0 La logística en el comercio electrónico permite coordinar inventarios, transporte y servicio posventa. Esto facilita que las organizaciones mantengan control sobre tiempos de entrega, disponibilidad de productos y seguimiento de pedidos.
 
     .row.justify-content-center
@@ -32,7 +32,7 @@
         .p-4.py-sm-4.rounded-4.bg-azul
           .row.justify-content-center.align-items-center
             .col-lg-8
-              p.mb-4.mb-lg-0 #[strong Ejemplo]: empresas como Mercado Libre y Amazon utilizan sistemas logísticos automatizados para optimizar la preparación de pedidos y reducir tiempos de distribución. Estas estrategias fortalecen la experiencia del consumidor y mejoran la competitividad empresarial.
+              p.mb-4.mb-lg-0 #[strong Ejemplo]: empresas como Mercado Libre, Amazon, Falabella, Éxito, entre otras, utilizan sistemas logísticos automatizados para optimizar la preparación de pedidos y reducir tiempos de distribución. Estas estrategias fortalecen la experiencia del consumidor y mejoran la competitividad empresarial.
             .col-lg-4
               img.imgw-100(src="@/assets/curso/tema1/3.png", alt="")
 
@@ -40,7 +40,7 @@
     #t_1_2.titulo-segundo.color-acento-contenido(data-aos="flip-up")
       h2 1.2 Modelos y componentes logísticos
 
-    p Los modelos logísticos en e-commerce dependen del tipo de operación comercial, cobertura de mercado y capacidad de distribución de la empresa. Cada organización estructura sus procesos logísticos según volumen de pedidos, tipo de producto y requerimientos del consumidor.
+    p Los modelos logísticos en #[em e-commerce] dependen del tipo de operación comercial, cobertura de mercado y capacidad de distribución de la empresa. Cada organización estructura sus procesos logísticos según volumen de pedidos, tipo de producto y requerimientos del consumidor.
     p.mb-4 Dentro de los principales componentes logísticos se encuentran: 
 
     .row.justify-content-center.align-items-center.mb-4
@@ -88,7 +88,7 @@
         .p-4.py-sm-2.rounded-4.bg-terciario-t5
           .row.justify-content-center.align-items-center
             .col-sm-9
-              p.mb-4.mb-sm-0 #[strong Ejemplo]: empresas como Falabella integran centros de distribución, operadores logísticos y plataformas tecnológicas para controlar inventarios y monitorear entregas en tiempo real.
+              p.mb-4.mb-sm-0 #[strong Ejemplo]: empresas como Falabella, Éxito, entre otras, integran centros de distribución, operadores logísticos y plataformas tecnológicas para controlar inventarios y monitorear entregas en tiempo real.
             .col-6.col-sm-3
               img.imgw-115(src="@/assets/curso/tema1/10.png", alt="")
 
@@ -102,7 +102,7 @@
       )
       .bloque-texto-g__texto.p-4
         p.d-block.mb-3 Los modelos de negociación en el comercio electrónico establecen la forma en que las organizaciones interactúan con diferentes tipos de clientes y entidades para desarrollar procesos comerciales. Su conocimiento permite comprender las características de cada relación de negocio, identificar sus particularidades y seleccionar estrategias logísticas acordes con las necesidades de cada operación.
-        p.mb-0 A continuación, se presentan los principales modelos de negociación utilizados en el e-commerce:
+        p.mb-0 A continuación, se presentan los principales modelos de negociación utilizados en el #[em e-commerce]:
 
     .row.justify-content-center.mb-4.mb-lg-5
       .col-sm-8.col-lg-6.col-xl-4.mb-4.mb-xl-0
@@ -113,7 +113,7 @@
           .crd_hover_txt--body
             h4.mb-4 B2B (#[em Business to Business])
             p Corresponde a transacciones comerciales entre empresas, donde una organización suministra productos o servicios a otra para apoyar su operación o comercialización. 
-            p.mb-0 #[strong Ejemplos]: un fabricante vende a un distribuidor, un proveedor de software atiende una cadena de supermercados.
+            p.mb-0 #[strong Ejemplos]: un fabricante vende a un distribuidor, un proveedor de #[em software] atiende una cadena de supermercados.
 
       .col-sm-8.col-lg-6.col-xl-4.mb-4.mb-xl-0
         .crd_hover_txt(data-aos="flip-left").tarjeta
@@ -156,15 +156,13 @@
       .py-4.py-md-5(titulo="Ley 527 de 1999 Congreso de la Republica" :icono="require_src('@/assets/curso/tema1/16.svg')")
         .row.justify-content-center.align-items-center
           .col-lg-7.col-xl-6
-            h4 Ley 527 de 1999 Congreso de la Republica
-            p.mb-4.mb-lg-0 Regula y reconoce el uso de mensajes de datos, comercio electrónico y firmas digitales en Colombia. Establece validez jurídica para las transacciones electrónicas.
+            p.mb-4.mb-lg-0 Regula y reconoce el uso de mensajes de datos, comercio electrónico y firmas digitales en Colombia. Establece validez jurídica para las transacciones electrónicas. 
           .col-sm-8.col-lg-4
             figure
               img(src='@/assets/curso/tema1/22.png', alt='')
       .py-4.py-md-5(titulo="Ley 1581 de 2012 Congreso de la Republica" :icono="require_src('@/assets/curso/tema1/17.svg')")
         .row.justify-content-center.align-items-center
           .col-lg-7.col-xl-6
-            h4 Ley 1581 de 2012 Congreso de la Republica
             p.mb-4.mb-lg-0 Regula la protección de datos personales y establece lineamientos para el tratamiento, almacenamiento y manejo de información de usuarios y clientes.
           .col-sm-8.col-lg-4
             figure
@@ -172,23 +170,20 @@
       .py-4.py-md-5(titulo="Ley 1480 de 2011 Estatuto del Consumidor" :icono="require_src('@/assets/curso/tema1/18.svg')")
         .row.justify-content-center.align-items-center
           .col-lg-7.col-xl-6
-            h4 Ley 1480 de 2011 Estatuto del Consumidor
-            p.mb-4.mb-lg-0 Protege los derechos de los consumidores, establece garantías en la compraventa, promueve la transparencia y la诚信 en las relaciones comerciales.
+            p.mb-4.mb-lg-0 Define derechos y deberes en relaciones comerciales, incluyendo ventas realizadas mediante plataformas digitales. 
           .col-sm-8.col-lg-4
             figure
               img(src='@/assets/curso/tema1/24.png', alt='')
       .py-4.py-md-5(titulo="Facturación electrónica DIAN" :icono="require_src('@/assets/curso/tema1/19.svg')")
         .row.justify-content-center.align-items-center
           .col-lg-7.col-xl-6
-            h4 Ley 1581 de 2012 Congreso de la Republica
-            p.mb-4.mb-lg-0 Regula la protección de datos personales y establece lineamientos para el tratamiento, almacenamiento y manejo de información de usuarios y clientes.
+            p.mb-4.mb-lg-0 Establece lineamientos tributarios y fiscales para la emisión y control de facturas electrónicas en operaciones comerciales digitales. 
           .col-sm-8.col-lg-4
             figure
               img(src='@/assets/curso/tema1/25.png', alt='')
       .py-4.py-md-5(titulo="Normativa de seguridad informática ISO 27000" :icono="require_src('@/assets/curso/tema1/20.svg')")
         .row.justify-content-center.align-items-center
           .col-lg-7.col-xl-6
-            h4 Normativa de seguridad informática ISO 27000
             p.mb-4.mb-lg-0 Contempla medidas para protección de información, prevención de fraudes electrónicos y seguridad en transacciones digitales
           .col-sm-8.col-lg-4
             figure
@@ -196,50 +191,61 @@
       .py-4.py-md-5(titulo="Resolución 202 de 2010 Ministerio TIC" :icono="require_src('@/assets/curso/tema1/21.svg')")
         .row.justify-content-center.align-items-center
           .col-lg-7.col-xl-6
-            h4 Resolución 202 de 2010 Ministerio TIC
-            p.mb-4.mb-lg-0 Contempla medidas para protección de información, prevención de fraudes electrónicos y seguridad en transacciones digitales
+            p.mb-4.mb-lg-0 Establece lineamientos relacionados con tecnologías de la información y comunicaciones aplicadas a entornos digitales y comercio electrónico. 
           .col-sm-8.col-lg-4
             figure
               img(src='@/assets/curso/tema1/27.png', alt='')
 
-    .row.justify-content-center
-      .col-lg-10.col-xl-8
-        .tarjeta.bg-terciario-t70.p-4.mb-5
+    p.mb-4 El e‑commerce es la compra y venta de productos o servicios a través de medios digitales, con antecedentes en la evolución de internet y modelos de negocio como B2B, B2C y C2C. Sus características principales son la accesibilidad global, la rapidez en las transacciones y la personalización de la experiencia del cliente. Para fortalecer estos conocimientos, se invita al aprendiz a dar clic en el video sobre fundamentos y modelos de negociación, consultar el anexo en PDF y a escuchar el pódcast sobre la logística detrás del pedido.
+
+
+    .row.justify-content-center.align-items-center.mb-4.mb-lg-5.z-2
+      .col-lg-5
+        figure
+          img(src="@/assets/curso/tema1/29.png", alt="alt", data-aos="zoom-in-down")
+          
+      .col-lg-7
+        .tarjeta.bg-terciario-t70.p-4.mb-3
           .row.justify-content-around.align-items-center
             .col-3.col-sm-2.d-none.d-lg-block
               img.imgw-72(src="@/assets/curso/tema1/28.svg")
             .col
               .row.justify-content-between.align-items-center
                 .col.mb-3.mb-sm-0
-                  h4.text-white Que es E Commerce: Concepto, antecedentes, Tipos, Características
-                  p.mb-0.text-white A continuación, se invita a ir al siguiente video para fortalecer los conocimientos relacionados con fundamentos del e-commerce y modelos de negociación: 
+                  h4.text-white Que es #[em e-commerce]: Concepto, antecedentes, Tipos, Características
+                  p.mb-0.text-white A continuación, se invita a ir al siguiente video para fortalecer los conocimientos relacionados con fundamentos del #[em e-commerce] y modelos de negociación: 
 
                 .col-sm-auto.d-flex.gap-2.flex-column
                   a.boton.color-acento-botones.d-block(href="https://www.youtube.com/watch?v=BEbIe52iJ70"  target="_blank" no-referrer)
                     span Enlace
                     i.fas.fa-file-video
+        .tarjeta.bg-terciario-t5.p-4.mb-3
+          .row.justify-content-around.align-items-center
+            .col-3.col-sm-2.d-none.d-lg-block
+              img.imgw-72(src="@/assets/curso/tema1/28.svg")
+            .col
+              .row.justify-content-between.align-items-center
+                .col.mb-3.mb-sm-0
+                  h4 Modelos de Negocio en E-Commerce (B2C y B2B)
+                  p.mb-0 Se invita al aprendiz a profundizar en modelos de negocio en #[em e-commerce] 
 
-    .row.justify-content-center.align-items-center.mb-4.mb-lg-5.z-2
-      .col-lg-7.bg-audio.rounded-4.mb-4.mb-lg-0
-        .row.align-items-center
-          .col-sm-4
-            figure.pt-3
-              img.imgw-185.mb-4.mb-sm-0(src="@/assets/curso/common/mic.png", alt="alt")
-          .col-sm-8.col-lg-8
-            p.text-white A continuación, se invita a escuchar el siguiente pódcast:
-            TarjetaAudio.color-acento-contenido.mb-3(
-              texto="“La logística detrás del pedido: carga, preparación y distribución.”"
-              :audio="require_src('@/assets/curso/actividad/audio/fail.mp3')"
-              @audio-hover="mostrarIndicadorTarjetaAudio = false"
-            )
-      .col-lg-5
-        p.mb-4 El e‑commerce es la compra y venta de productos o servicios a través de medios digitales, con antecedentes en la evolución de internet y modelos de negocio como B2B, B2C y C2C. Sus características principales son la accesibilidad global, la rapidez en las transacciones y la personalización de la experiencia del cliente. Para fortalecer estos conocimientos, se invita al aprendiz a dar clic en el video sobre fundamentos y modelos de negociación, consultar el anexo en PDF y a escuchar el pódcast sobre la logística detrás del pedido.
-
-        a.anexo(href="https://www.centro-virtual.com/recursos/biblioteca/pdf/e-commerce/unidad1_pdf2.pdf" target="_blank" no-referrer)
-          .anexo__icono
-            img(src="@/assets/template/icono-pdf.svg")
-          .anexo__texto
-            p #[strong Anexo]. Se invita al aprendiz a profundizar en modelos de negocio en e-commerce 
+                .col-sm-auto.d-flex.gap-2.flex-column
+                  a.boton.color-acento-botones.d-block(href="https://www.centro-virtual.com/recursos/biblioteca/pdf/e-commerce/unidad1_pdf2.pdf  "  target="_blank" no-referrer)
+                    span Enlace
+                    i.fas.fa-file-video
+        .bg-audio.rounded-4.mb-4.mb-lg-0.px-3
+          .row.align-items-center
+            .col-sm-4
+              figure.pt-3
+                img.imgw-185.mb-4.mb-sm-0(src="@/assets/curso/common/mic.png", alt="alt")
+            .col-sm-8.col-lg-8
+              p.text-white A continuación, se invita a escuchar el siguiente pódcast:
+              TarjetaAudio.color-acento-contenido.mb-3(
+                texto="“La logística detrás del pedido: carga, preparación y distribución.”"
+                tiempo
+                :audio="require_src('@/assets/curso/audio/podcast-1.mp3')"
+                @audio-hover="mostrarIndicadorTarjetaAudio = false"
+              )
 
 
 
